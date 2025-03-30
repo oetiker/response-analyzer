@@ -6,8 +6,7 @@
 *.dylib
 *~
 *.xlsx
-config.yaml
-response-analyzer
+/response-analyzer
 
 # Test binary, built with `go test -c`
 *.test
