@@ -56,6 +56,11 @@ func NewRenderer(logger *logging.Logger) *Renderer {
 func (r *Renderer) RenderTemplate(templatePath, outputPath string, result *analysis.AnalysisResult) error {
 	r.logger.Info("Rendering template", "template", templatePath, "output", outputPath)
 
+	// Set a default value for ColumnTitle if it's empty
+	if result.ColumnTitle == "" {
+		result.ColumnTitle = "Survey Responses"
+	}
+
 	// Read template file
 	tmplContent, err := os.ReadFile(templatePath)
 	if err != nil {
@@ -139,6 +144,11 @@ func (r *Renderer) prepareTemplateData(result *analysis.AnalysisResult) (*Templa
 		ResponseCount:  totalResponses,
 		AnalysisDate:   result.AnalysisTimestamp,
 		ColumnTitle:    result.ColumnTitle,
+	}
+
+	// If ColumnTitle is empty, use a default value
+	if data.ColumnTitle == "" {
+		data.ColumnTitle = "Survey Responses"
 	}
 
 	return data, nil

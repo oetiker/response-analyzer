@@ -525,31 +525,50 @@ func (a *Analyzer) AnalyzeResponses(responses []excel.Response, cfg *config.Conf
 	// Build theme analyses
 	result.ThemeAnalyses = a.BuildThemeAnalyses(result.ResponseAnalyses, result.Themes)
 
-	// Generate theme summaries if themes are provided and theme summary prompt is provided
-	if len(result.Themes) > 0 && cfg.ThemeSummaryPrompt != "" {
-		result.ThemeSummaries, err = a.GenerateThemeSummaries(result.ResponseAnalyses, result.ThemeAnalyses, cfg.ThemeSummaryPrompt)
-		if err != nil {
-			return nil, fmt.Errorf("failed to generate theme summaries: %w", err)
+	// Check if any responses have changed
+	responsesChanged := len(previousAnalyses) != len(result.ResponseAnalyses)
+	if !responsesChanged {
+		for id, analysis := range result.ResponseAnalyses {
+			if prevAnalysis, ok := previousAnalyses[id]; !ok || prevAnalysis.Response.Hash != analysis.Response.Hash {
+				responsesChanged = true
+				break
+			}
 		}
 	}
 
-	// Generate global summary if themes are provided and global summary prompt is provided
-	if len(result.Themes) > 0 && cfg.GlobalSummaryPrompt != "" && cfg.SummaryLength > 0 {
-		result.GlobalSummary, err = a.GenerateGlobalSummary(result.ThemeSummaries, cfg.GlobalSummaryPrompt, cfg.SummaryLength)
-		if err != nil {
-			return nil, fmt.Errorf("failed to generate global summary: %w", err)
+	// If no responses have changed and previous result has theme summaries, reuse them
+	if !responsesChanged && previousResult != nil && len(previousResult.ThemeSummaries) > 0 {
+		a.logger.Info("Reusing theme summaries from previous result", "count", len(previousResult.ThemeSummaries))
+		result.ThemeSummaries = previousResult.ThemeSummaries
+		result.GlobalSummary = previousResult.GlobalSummary
+		result.Summary = previousResult.Summary
+	} else {
+		// Generate theme summaries if themes are provided and theme summary prompt is provided
+		if len(result.Themes) > 0 && cfg.ThemeSummaryPrompt != "" {
+			result.ThemeSummaries, err = a.GenerateThemeSummaries(result.ResponseAnalyses, result.ThemeAnalyses, cfg.ThemeSummaryPrompt)
+			if err != nil {
+				return nil, fmt.Errorf("failed to generate theme summaries: %w", err)
+			}
 		}
-		// Set Summary to the same value for backward compatibility
-		result.Summary = result.GlobalSummary
-	} else if len(result.Themes) > 0 && cfg.SummaryLength > 0 {
-		// Use a default global summary prompt if none is provided
-		defaultGlobalPrompt := "Summarize the main points made in each theme and highlight any unique ideas or problems mentioned."
-		result.GlobalSummary, err = a.GenerateGlobalSummary(result.ThemeSummaries, defaultGlobalPrompt, cfg.SummaryLength)
-		if err != nil {
-			return nil, fmt.Errorf("failed to generate global summary: %w", err)
+
+		// Generate global summary if themes are provided and global summary prompt is provided
+		if len(result.Themes) > 0 && cfg.GlobalSummaryPrompt != "" && cfg.SummaryLength > 0 {
+			result.GlobalSummary, err = a.GenerateGlobalSummary(result.ThemeSummaries, cfg.GlobalSummaryPrompt, cfg.SummaryLength)
+			if err != nil {
+				return nil, fmt.Errorf("failed to generate global summary: %w", err)
+			}
+			// Set Summary to the same value for backward compatibility
+			result.Summary = result.GlobalSummary
+		} else if len(result.Themes) > 0 && cfg.SummaryLength > 0 {
+			// Use a default global summary prompt if none is provided
+			defaultGlobalPrompt := "Summarize the main points made in each theme and highlight any unique ideas or problems mentioned."
+			result.GlobalSummary, err = a.GenerateGlobalSummary(result.ThemeSummaries, defaultGlobalPrompt, cfg.SummaryLength)
+			if err != nil {
+				return nil, fmt.Errorf("failed to generate global summary: %w", err)
+			}
+			// Set Summary to the same value for backward compatibility
+			result.Summary = result.GlobalSummary
 		}
-		// Set Summary to the same value for backward compatibility
-		result.Summary = result.GlobalSummary
 	}
 
 	a.logger.Info("Analysis completed",
