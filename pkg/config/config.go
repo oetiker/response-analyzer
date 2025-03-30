@@ -17,8 +17,7 @@ type Config struct {
 	ClaudeAPIKey  string `yaml:"claude_api_key"`
 	ClaudeModel   string `yaml:"claude_model,omitempty"`
 	ContextPrompt string `yaml:"context_prompt"`
-	SummaryPrompt string `yaml:"summary_prompt"`
-	SummaryLength int    `yaml:"summary_length"`
+	SummaryLength int    `yaml:"global_summary_length"` // Renamed from summary_length for clarity
 
 	// Theme summary configuration
 	ThemeSummaryPrompt  string `yaml:"theme_summary_prompt,omitempty"`
@@ -77,7 +76,7 @@ func LoadConfig(path string) (*Config, error) {
 
 	// Set defaults
 	if cfg.SummaryLength == 0 {
-		cfg.SummaryLength = 500 // Default summary length
+		cfg.SummaryLength = 500 // Default global summary length
 	}
 
 	if cfg.CacheDir == "" && cfg.CacheEnabled {
@@ -86,10 +85,6 @@ func LoadConfig(path string) (*Config, error) {
 
 	if cfg.ContextPrompt == "" {
 		cfg.ContextPrompt = "Analyze the following survey responses and identify the main themes or topics discussed."
-	}
-
-	if cfg.SummaryPrompt == "" {
-		cfg.SummaryPrompt = "Summarize the main points made in each theme and highlight any unique ideas or problems mentioned."
 	}
 
 	if cfg.OutputLanguage == "" {

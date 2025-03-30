@@ -29,6 +29,7 @@ type TemplateData struct {
 	Responses      []ResponseData
 	ResponseCount  int
 	AnalysisDate   time.Time
+	ColumnTitle    string
 }
 
 // ResponseData represents a response in the template data
@@ -137,6 +138,7 @@ func (r *Renderer) prepareTemplateData(result *analysis.AnalysisResult) (*Templa
 		Responses:      responses,
 		ResponseCount:  totalResponses,
 		AnalysisDate:   result.AnalysisTimestamp,
+		ColumnTitle:    result.ColumnTitle,
 	}
 
 	return data, nil

@@ -120,12 +120,15 @@ func runWorkflow(logger *logging.Logger, cfg *config.Config, identifyThemesOnly 
 	writer := output.NewWriter(logger)
 
 	// Read responses from Excel file
-	responses, err := excelReader.ReadResponses(cfg.ExcelFilePath, cfg.ResponseColumn)
+	excelData, err := excelReader.ReadResponses(cfg.ExcelFilePath, cfg.ResponseColumn)
 	if err != nil {
 		return nil, fmt.Errorf("failed to read responses: %w", err)
 	}
 
-	logger.Info("Read responses from Excel file", "count", len(responses))
+	responses := excelData.Responses
+	columnTitle := excelData.ColumnTitle
+
+	logger.Info("Read responses from Excel file", "count", len(responses), "column_title", columnTitle)
 
 	// Check if state file exists
 	var previousResult *analysis.AnalysisResult
@@ -193,39 +196,34 @@ func runWorkflow(logger *logging.Logger, cfg *config.Config, identifyThemesOnly 
 		logger.Info("Using themes from configuration", "count", len(cfg.Themes))
 		result, err = analyzer.AnalyzeResponses(
 			responses,
-			cfg.Themes,
-			cfg.ContextPrompt,
-			cfg.SummaryPrompt,
-			cfg.ThemeSummaryPrompt,
-			cfg.GlobalSummaryPrompt,
-			cfg.SummaryLength,
+			cfg,
 			previousResult,
+			columnTitle,
 		)
 	} else if previousResult != nil && len(previousResult.Themes) > 0 {
 		// Use themes from previous state
 		logger.Info("Using themes from previous state", "count", len(previousResult.Themes))
+		// Save the previous themes to the config temporarily
+		originalThemes := cfg.Themes
+		cfg.Themes = previousResult.Themes
 		result, err = analyzer.AnalyzeResponses(
 			responses,
-			previousResult.Themes,
-			cfg.ContextPrompt,
-			cfg.SummaryPrompt,
-			cfg.ThemeSummaryPrompt,
-			cfg.GlobalSummaryPrompt,
-			cfg.SummaryLength,
+			cfg,
 			previousResult,
+			columnTitle,
 		)
+		// Restore the original themes
+		cfg.Themes = originalThemes
 	} else {
 		// Identify themes and perform full analysis
 		logger.Info("No themes provided, identifying themes and performing full analysis")
+		// Ensure themes is empty for auto-identification
+		cfg.Themes = nil
 		result, err = analyzer.AnalyzeResponses(
 			responses,
-			nil,
-			cfg.ContextPrompt,
-			cfg.SummaryPrompt,
-			cfg.ThemeSummaryPrompt,
-			cfg.GlobalSummaryPrompt,
-			cfg.SummaryLength,
+			cfg,
 			previousResult,
+			columnTitle,
 		)
 
 		// Output identified themes

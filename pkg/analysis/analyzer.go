@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/oetiker/response-analyzer/pkg/claude"
+	"github.com/oetiker/response-analyzer/pkg/config"
 	"github.com/oetiker/response-analyzer/pkg/excel"
 	"github.com/oetiker/response-analyzer/pkg/logging"
 )
@@ -34,6 +35,7 @@ type AnalysisResult struct {
 	GlobalSummary     string                         `yaml:"global_summary,omitempty"` // Same as Summary, new name for clarity
 	UniqueIdeas       []string                       `yaml:"unique_ideas,omitempty"`   // Kept for backward compatibility
 	AnalysisTimestamp time.Time                      `yaml:"analysis_timestamp"`
+	ColumnTitle       string                         `yaml:"column_title,omitempty"` // Title of the column containing responses
 }
 
 // Analyzer handles the analysis of responses
@@ -476,22 +478,23 @@ func (a *Analyzer) IdentifyThemesOnly(responses []excel.Response, contextPrompt 
 	return a.IdentifyThemes(responses, contextPrompt)
 }
 
-// AnalyzeResponses analyzes responses
-func (a *Analyzer) AnalyzeResponses(responses []excel.Response, themes []string, contextPrompt string, summaryPrompt string, themeSummaryPrompt string, globalSummaryPrompt string, summaryLength int, previousResult *AnalysisResult) (*AnalysisResult, error) {
+// AnalyzeResponses analyzes responses using the provided configuration
+func (a *Analyzer) AnalyzeResponses(responses []excel.Response, cfg *config.Config, previousResult *AnalysisResult, columnTitle string) (*AnalysisResult, error) {
 	a.logger.Info("Analyzing responses", "count", len(responses))
 
 	// Initialize result
 	result := &AnalysisResult{
-		Themes:            themes,
+		Themes:            cfg.Themes,
 		ResponseAnalyses:  make(map[string]ResponseAnalysis),
 		ThemeAnalyses:     make(map[string]ThemeAnalysis),
 		AnalysisTimestamp: time.Now(),
+		ColumnTitle:       columnTitle,
 	}
 
 	// If no themes provided, identify them
-	if len(themes) == 0 {
+	if len(result.Themes) == 0 {
 		var err error
-		result.Themes, err = a.IdentifyThemes(responses, contextPrompt)
+		result.Themes, err = a.IdentifyThemes(responses, cfg.ContextPrompt)
 		if err != nil {
 			return nil, fmt.Errorf("failed to identify themes: %w", err)
 		}
@@ -507,13 +510,13 @@ func (a *Analyzer) AnalyzeResponses(responses []excel.Response, themes []string,
 	var err error
 	if a.useParallel {
 		// Use parallel processing
-		result.ResponseAnalyses, err = a.MatchResponsesToThemesParallel(responses, result.Themes, contextPrompt, previousAnalyses, a.batchSize, a.parallelWorkers)
+		result.ResponseAnalyses, err = a.MatchResponsesToThemesParallel(responses, result.Themes, cfg.ContextPrompt, previousAnalyses, a.batchSize, a.parallelWorkers)
 		if err != nil {
 			return nil, fmt.Errorf("failed to match responses to themes in parallel: %w", err)
 		}
 	} else {
 		// Use batch processing
-		result.ResponseAnalyses, err = a.MatchResponsesToThemes(responses, result.Themes, contextPrompt, previousAnalyses)
+		result.ResponseAnalyses, err = a.MatchResponsesToThemes(responses, result.Themes, cfg.ContextPrompt, previousAnalyses)
 		if err != nil {
 			return nil, fmt.Errorf("failed to match responses to themes: %w", err)
 		}
@@ -523,35 +526,36 @@ func (a *Analyzer) AnalyzeResponses(responses []excel.Response, themes []string,
 	result.ThemeAnalyses = a.BuildThemeAnalyses(result.ResponseAnalyses, result.Themes)
 
 	// Generate theme summaries if themes are provided and theme summary prompt is provided
-	if len(result.Themes) > 0 && themeSummaryPrompt != "" {
-		result.ThemeSummaries, err = a.GenerateThemeSummaries(result.ResponseAnalyses, result.ThemeAnalyses, themeSummaryPrompt)
+	if len(result.Themes) > 0 && cfg.ThemeSummaryPrompt != "" {
+		result.ThemeSummaries, err = a.GenerateThemeSummaries(result.ResponseAnalyses, result.ThemeAnalyses, cfg.ThemeSummaryPrompt)
 		if err != nil {
 			return nil, fmt.Errorf("failed to generate theme summaries: %w", err)
 		}
 	}
 
 	// Generate global summary if themes are provided and global summary prompt is provided
-	if len(result.Themes) > 0 && globalSummaryPrompt != "" && summaryLength > 0 {
-		result.GlobalSummary, err = a.GenerateGlobalSummary(result.ThemeSummaries, globalSummaryPrompt, summaryLength)
+	if len(result.Themes) > 0 && cfg.GlobalSummaryPrompt != "" && cfg.SummaryLength > 0 {
+		result.GlobalSummary, err = a.GenerateGlobalSummary(result.ThemeSummaries, cfg.GlobalSummaryPrompt, cfg.SummaryLength)
 		if err != nil {
 			return nil, fmt.Errorf("failed to generate global summary: %w", err)
 		}
 		// Set Summary to the same value for backward compatibility
 		result.Summary = result.GlobalSummary
-	} else if len(result.Themes) > 0 && summaryLength > 0 {
-		// Fallback to old summary generation for backward compatibility
-		result.Summary, err = a.GenerateSummary(result.ResponseAnalyses, result.ThemeAnalyses, summaryPrompt, summaryLength)
+	} else if len(result.Themes) > 0 && cfg.SummaryLength > 0 {
+		// Use a default global summary prompt if none is provided
+		defaultGlobalPrompt := "Summarize the main points made in each theme and highlight any unique ideas or problems mentioned."
+		result.GlobalSummary, err = a.GenerateGlobalSummary(result.ThemeSummaries, defaultGlobalPrompt, cfg.SummaryLength)
 		if err != nil {
-			return nil, fmt.Errorf("failed to generate summary: %w", err)
+			return nil, fmt.Errorf("failed to generate global summary: %w", err)
 		}
-		// Set GlobalSummary to the same value for backward compatibility
-		result.GlobalSummary = result.Summary
+		// Set Summary to the same value for backward compatibility
+		result.Summary = result.GlobalSummary
 	}
 
 	a.logger.Info("Analysis completed",
 		"themes", len(result.Themes),
 		"responses", len(result.ResponseAnalyses),
-		"summary_length", len(result.Summary))
+		"global_summary_length", len(result.GlobalSummary))
 
 	return result, nil
 }

@@ -18,6 +18,12 @@ type Response struct {
 	Hash     string // Hash of the response text for change detection
 }
 
+// ExcelData represents the data read from an Excel file
+type ExcelData struct {
+	Responses   []Response
+	ColumnTitle string
+}
+
 // ExcelReader handles reading responses from Excel files
 type ExcelReader struct {
 	logger *logging.Logger
@@ -31,43 +37,49 @@ func NewExcelReader(logger *logging.Logger) *ExcelReader {
 }
 
 // ReadResponses reads responses from an Excel file
-func (r *ExcelReader) ReadResponses(filePath, columnLetter string) ([]Response, error) {
+func (r *ExcelReader) ReadResponses(filePath, columnLetter string) (ExcelData, error) {
 	r.logger.Info("Reading Excel file", "path", filePath, "column", columnLetter)
 
 	// Open the Excel file
 	f, err := excelize.OpenFile(filePath)
 	if err != nil {
-		return nil, fmt.Errorf("failed to open Excel file: %w", err)
+		return ExcelData{}, fmt.Errorf("failed to open Excel file: %w", err)
 	}
 	defer f.Close()
 
 	// Get the first sheet
 	sheets := f.GetSheetList()
 	if len(sheets) == 0 {
-		return nil, fmt.Errorf("no sheets found in Excel file")
+		return ExcelData{}, fmt.Errorf("no sheets found in Excel file")
 	}
 	sheetName := sheets[0]
 
 	// Convert column letter to index
 	columnIndex, err := excelize.ColumnNameToNumber(columnLetter)
 	if err != nil {
-		return nil, fmt.Errorf("invalid column letter: %w", err)
+		return ExcelData{}, fmt.Errorf("invalid column letter: %w", err)
 	}
 
 	// Read all rows
 	rows, err := f.GetRows(sheetName)
 	if err != nil {
-		return nil, fmt.Errorf("failed to read rows: %w", err)
+		return ExcelData{}, fmt.Errorf("failed to read rows: %w", err)
 	}
+
+	// Initialize column title
+	columnTitle := ""
 
 	// Extract responses
 	var responses []Response
 	for i, row := range rows {
 		rowIndex := i + 1 // Excel rows are 1-based
 
-		// Skip header row
+		// Get column title from header row
 		if rowIndex == 1 {
-			continue
+			if len(row) >= columnIndex {
+				columnTitle = strings.TrimSpace(row[columnIndex-1])
+			}
+			continue // Skip processing header as a response
 		}
 
 		// Check if column exists in this row
@@ -95,8 +107,11 @@ func (r *ExcelReader) ReadResponses(filePath, columnLetter string) ([]Response, 
 		responses = append(responses, response)
 	}
 
-	r.logger.Info("Read responses from Excel file", "count", len(responses))
-	return responses, nil
+	r.logger.Info("Read responses from Excel file", "count", len(responses), "column_title", columnTitle)
+	return ExcelData{
+		Responses:   responses,
+		ColumnTitle: columnTitle,
+	}, nil
 }
 
 // ValidateExcelFile validates that the Excel file exists and has the specified column

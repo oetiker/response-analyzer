@@ -687,7 +687,8 @@ func (c *Client) GenerateGlobalSummary(themeSummaries map[string]ThemeSummary, g
 	// Get language instructions
 	langInstructions := c.getLanguageInstructions()
 
-	prompt += fmt.Sprintf("Create a comprehensive global summary highlighting the most important findings. Length: ~%d characters.", summaryLength)
+	// Update the prompt to explicitly request no title
+	prompt += fmt.Sprintf("Create a comprehensive global summary highlighting the most important findings. Length: ~%d characters. DO NOT include a title or heading in your response.", summaryLength)
 
 	// Add language instructions if needed
 	if langInstructions != "" {
@@ -700,7 +701,65 @@ func (c *Client) GenerateGlobalSummary(themeSummaries map[string]ThemeSummary, g
 		return "", fmt.Errorf("failed to generate global summary: %w", err)
 	}
 
-	return completion, nil
+	// Post-process to remove any title that might still be included
+	processedSummary := removeTitle(completion)
+
+	return processedSummary, nil
+}
+
+// removeTitle removes titles from summaries
+func removeTitle(text string) string {
+	lines := strings.Split(text, "\n")
+
+	// Check if the first line looks like a title (short, ends with punctuation, or is all caps)
+	if len(lines) > 1 {
+		firstLine := strings.TrimSpace(lines[0])
+
+		// Skip empty lines
+		startIndex := 0
+		for startIndex < len(lines) && strings.TrimSpace(lines[startIndex]) == "" {
+			startIndex++
+		}
+
+		// If we have a non-empty line
+		if startIndex < len(lines) {
+			firstLine = strings.TrimSpace(lines[startIndex])
+
+			// Check if it looks like a title
+			isTitle := false
+
+			// Check if it's short (less than 60 chars)
+			if len(firstLine) < 60 {
+				isTitle = true
+			}
+
+			// Check if it ends with a colon
+			if strings.HasSuffix(firstLine, ":") {
+				isTitle = true
+			}
+
+			// Check if it's all uppercase
+			if firstLine == strings.ToUpper(firstLine) && len(firstLine) > 3 {
+				isTitle = true
+			}
+
+			// Check if it starts with "Summary" or similar words
+			titlePrefixes := []string{"Summary", "Overview", "Key Findings", "Results", "Conclusion", "Analysis"}
+			for _, prefix := range titlePrefixes {
+				if strings.HasPrefix(strings.ToLower(firstLine), strings.ToLower(prefix)) {
+					isTitle = true
+					break
+				}
+			}
+
+			// If it looks like a title, remove it
+			if isTitle {
+				return strings.TrimSpace(strings.Join(lines[startIndex+1:], "\n"))
+			}
+		}
+	}
+
+	return text
 }
 
 // GenerateSummary generates a summary of the themes (for backward compatibility)
