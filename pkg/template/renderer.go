@@ -3,6 +3,7 @@ package template
 import (
 	"fmt"
 	"os"
+	"sort"
 	"text/template"
 	"time"
 
@@ -108,6 +109,11 @@ func (r *Renderer) prepareTemplateData(result *analysis.AnalysisResult) (*Templa
 		}
 		themeStats = append(themeStats, stat)
 	}
+
+	// Sort theme stats by count in descending order
+	sort.Slice(themeStats, func(i, j int) bool {
+		return themeStats[i].Count > themeStats[j].Count
+	})
 
 	// Create response data
 	responses := make([]ResponseData, 0, len(result.ResponseAnalyses))

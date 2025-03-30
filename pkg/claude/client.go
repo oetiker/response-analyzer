@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"sort"
 	"strings"
 	"time"
 
@@ -376,32 +377,33 @@ func (c *Client) IdentifyThemes(responses []string, contextPrompt string) ([]str
 	samplesToUse := min(responseCount, maxResponsesToInclude)
 
 	// If we have more responses than our limit, select a representative sample
+	// Use a deterministic sampling approach
 	var selectedResponses []string
 	if responseCount > maxResponsesToInclude {
-		// Simple sampling - take evenly distributed responses
+		// Deterministic sampling - take evenly distributed responses
 		step := responseCount / maxResponsesToInclude
-		for i := 0; i < responseCount; i += step {
-			if len(selectedResponses) < maxResponsesToInclude {
-				selectedResponses = append(selectedResponses, responses[i])
-			}
+		for i := 0; i < responseCount && len(selectedResponses) < maxResponsesToInclude; i += step {
+			selectedResponses = append(selectedResponses, responses[i])
 		}
 	} else {
 		selectedResponses = responses
 	}
 
+	// Build a stable prompt with consistent formatting
 	combinedResponses := ""
 	for i, response := range selectedResponses {
 		// Truncate very long responses to save tokens
+		truncatedResponse := response
 		if len(response) > 500 {
-			response = response[:497] + "..."
+			truncatedResponse = response[:497] + "..."
 		}
-		combinedResponses += fmt.Sprintf("%d: %s\n", i+1, response)
+		combinedResponses += fmt.Sprintf("%d: %s\n", i+1, truncatedResponse)
 	}
 
 	// Get language instructions
 	langInstructions := c.getLanguageInstructions()
 
-	// Create a more concise prompt
+	// Create a more concise prompt with stable format
 	prompt := fmt.Sprintf("Identify main themes in these %d survey responses (sample of %d total):\n\n%s\n\nReturn themes as a YAML list with each theme on a new line starting with a dash.",
 		samplesToUse, responseCount, combinedResponses)
 
@@ -430,7 +432,7 @@ func (c *Client) IdentifyThemes(responses []string, contextPrompt string) ([]str
 
 // MatchResponsesToThemes matches responses to themes
 func (c *Client) MatchResponsesToThemes(response string, themes []string, contextPrompt string) ([]string, error) {
-	// Create prompt
+	// Create prompt with consistent theme ordering
 	themesText := ""
 	for i, theme := range themes {
 		themesText += fmt.Sprintf("%d. %s\n", i+1, theme)
@@ -439,7 +441,14 @@ func (c *Client) MatchResponsesToThemes(response string, themes []string, contex
 	// Get language instructions
 	langInstructions := c.getLanguageInstructions()
 
-	prompt := fmt.Sprintf("Here is a survey response:\n\n%s\n\nHere are the themes:\n%s\n\nWhich themes does this response relate to? Return the theme numbers as a YAML list with each number on a new line starting with a dash.", response, themesText)
+	// Truncate very long responses to save tokens and ensure consistency
+	truncatedResponse := response
+	if len(response) > 500 {
+		truncatedResponse = response[:497] + "..."
+	}
+
+	// Create a stable prompt format
+	prompt := fmt.Sprintf("Here is a survey response:\n\n%s\n\nHere are the themes:\n%s\n\nWhich themes does this response relate to? Return the theme numbers as a YAML list with each number on a new line starting with a dash.", truncatedResponse, themesText)
 
 	// Add language instructions if needed
 	if langInstructions != "" {
@@ -502,25 +511,26 @@ func (c *Client) MatchResponsesToThemesBatch(responses []string, themes []string
 
 // processBatch processes a batch of responses in a single API call
 func (c *Client) processBatch(responses []string, themes []string, contextPrompt string) ([][]string, error) {
-	// Create theme list once
+	// Create theme list once - sort by index to ensure consistent order
 	themesText := ""
 	for i, theme := range themes {
 		themesText += fmt.Sprintf("%d. %s\n", i+1, theme)
 	}
 
-	// Build the prompt with all responses in the batch
+	// Build the prompt with all responses in the batch - use a stable format
 	prompt := "Analyze multiple survey responses and match each to relevant themes.\n\n"
 	prompt += "Themes:\n" + themesText + "\n"
 	prompt += "For each response, identify which themes apply. Format your answer as:\n"
 	prompt += "RESPONSE 1: [comma-separated theme numbers]\nRESPONSE 2: [comma-separated theme numbers]\n...\n\n"
 
-	// Add all responses
+	// Add all responses in a stable order
 	for i, response := range responses {
 		// Truncate very long responses to save tokens
+		truncatedResponse := response
 		if len(response) > 300 {
-			response = response[:297] + "..."
+			truncatedResponse = response[:297] + "..."
 		}
-		prompt += fmt.Sprintf("RESPONSE %d: %s\n\n", i+1, response)
+		prompt += fmt.Sprintf("RESPONSE %d: %s\n\n", i+1, truncatedResponse)
 	}
 
 	// Get language instructions
@@ -597,18 +607,34 @@ func (c *Client) GenerateThemeSummary(theme string, responses []string, themeSum
 	// Limit the number of responses to include
 	maxResponses := 15
 
-	// Create prompt
+	// Create prompt with consistent format
 	prompt := fmt.Sprintf("Theme: %s\n\nResponses:", theme)
+
+	// Sort responses by length to ensure consistent selection if truncated
+	// This helps create more stable cache keys
+	if len(responses) > maxResponses {
+		// Create a copy to avoid modifying the original
+		responsesCopy := make([]string, len(responses))
+		copy(responsesCopy, responses)
+
+		// Sort by length (shorter responses first)
+		sort.Slice(responsesCopy, func(i, j int) bool {
+			return len(responsesCopy[i]) < len(responsesCopy[j])
+		})
+
+		// Take the first maxResponses
+		responses = responsesCopy[:maxResponses]
+	}
 
 	// Add responses (limited)
 	responsesToInclude := min(len(responses), maxResponses)
 	for i := 0; i < responsesToInclude; i++ {
 		// Truncate very long responses
-		response := responses[i]
-		if len(response) > 300 {
-			response = response[:297] + "..."
+		truncatedResponse := responses[i]
+		if len(responses[i]) > 300 {
+			truncatedResponse = responses[i][:297] + "..."
 		}
-		prompt += fmt.Sprintf("\n- %s", response)
+		prompt += fmt.Sprintf("\n- %s", truncatedResponse)
 	}
 
 	if len(responses) > maxResponses {

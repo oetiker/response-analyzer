@@ -176,7 +176,11 @@ func (c *Cache) loadEntries() error {
 		return fmt.Errorf("failed to list cache files: %w", err)
 	}
 
+	c.logger.Info("Found cache files", "count", len(files))
+
 	// Load each file
+	validEntries := 0
+	expiredEntries := 0
 	for _, file := range files {
 		// Read file
 		data, err := os.ReadFile(file)
@@ -194,7 +198,8 @@ func (c *Cache) loadEntries() error {
 
 		// Check if entry has expired
 		if time.Now().After(entry.ExpiresAt) {
-			c.logger.Debug("Skipping expired cache entry", "key", entry.Key)
+			c.logger.Debug("Skipping expired cache entry", "key_hash", filepath.Base(file), "expires", entry.ExpiresAt)
+			expiredEntries++
 			if err := os.Remove(file); err != nil {
 				c.logger.Warn("Failed to remove expired cache file", "path", file, "error", err)
 			}
@@ -204,9 +209,10 @@ func (c *Cache) loadEntries() error {
 		// Store in memory
 		hashedKey := hashKey(entry.Key)
 		c.entries[hashedKey] = &entry
+		validEntries++
 	}
 
-	c.logger.Info("Loaded cached entries", "count", len(c.entries))
+	c.logger.Info("Loaded cached entries", "valid", validEntries, "expired", expiredEntries, "total", len(c.entries))
 	return nil
 }
 
