@@ -7,6 +7,7 @@
 *~
 *.xlsx
 /response-analyzer
+/scratch
 
 # Test binary, built with `go test -c`
 *.test
