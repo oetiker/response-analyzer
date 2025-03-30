@@ -1,0 +1,39 @@
+# Response Analyzer Configuration
+
+# Excel file configuration
+excel_file_path: "responses.xlsx"  # Path to the Excel file containing responses
+response_column: "C"               # Column letter containing the responses (e.g., A, B, C)
+
+# Claude API configuration
+claude_api_key: "your-claude-api-key-here"  # Your Claude API key
+claude_model: "claude-3-opus-20240229"      # Claude model to use (optional, defaults to claude-3-opus-20240229)
+context_prompt: "Analyze these survey responses about our product. Identify key themes, issues, and suggestions mentioned by users."  # Context prompt for theme identification
+summary_prompt: "Summarize the main points made in each theme and highlight any unique ideas or problems mentioned. Focus on actionable insights."  # Prompt for summary generation (used for backward compatibility)
+summary_length: 1000  # Approximate length of the summary in characters
+
+# Theme summary configuration
+theme_summary_prompt: "For this theme, provide a detailed summary of the main points discussed in the responses and extract any unique ideas or suggestions."  # Prompt for per-theme summaries
+global_summary_prompt: "Based on the theme summaries, provide a comprehensive overview of the survey responses, highlighting the most important findings across all themes."  # Prompt for global summary
+
+# Output language configuration
+output_language: "en"  # Language for the output (en, de, de-ch, fr, it)
+                       # Use "de-ch" for German with Swiss spelling (ß -> ss)
+
+# Themes (populated after first run, or you can add manually)
+# themes:
+#   - "User Interface Issues"
+#   - "Performance Problems"
+#   - "Feature Requests"
+#   - "Positive Feedback"
+#   - "Documentation Needs"
+
+# State management
+state_file_path: "analysis-state.yaml"  # Path to save the state file (optional)
+
+# Cache configuration
+cache_enabled: true  # Enable caching to avoid repeated API calls
+cache_dir: ".cache"  # Directory to store cache files (optional)
+
+# Report template configuration
+# report_template_path: "report-template.tmpl"  # Path to the report template
+# report_output_path: "report.txt"              # Path to the output report

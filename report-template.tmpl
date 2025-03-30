@@ -1,0 +1,28 @@
+# Umfrageanalyse-Bericht
+Datum: {{.AnalysisDate.Format "02.01.2006"}}
+Anzahl Antworten: {{.ResponseCount}}
+
+## Globale Zusammenfassung
+{{.GlobalSummary}}
+
+## Identifizierte Themen
+{{range .ThemeStats}}
+### {{.Theme}} ({{.Count}} Antworten, {{printf "%.1f" .Percentage}}%)
+{{end}}
+
+## Detaillierte Themenanalyse
+{{range $theme := .Themes}}
+{{if index $.ThemeSummaries $theme}}
+### {{$theme}}
+
+#### Zusammenfassung
+{{(index $.ThemeSummaries $theme).Summary}}
+
+{{if (index $.ThemeSummaries $theme).UniqueIdeas}}
+#### Neue Ideen
+{{range $idea := (index $.ThemeSummaries $theme).UniqueIdeas}}
+- {{$idea}}
+{{end}}
+{{end}}
+{{end}}
+{{end}}

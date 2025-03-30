@@ -1,0 +1,28 @@
+# Survey Analysis Report
+Date: {{.AnalysisDate.Format "01/02/2006"}}
+Total Responses: {{.ResponseCount}}
+
+## Global Summary
+{{.GlobalSummary}}
+
+## Identified Themes
+{{range .ThemeStats}}
+### {{.Theme}} ({{.Count}} responses, {{printf "%.1f" .Percentage}}%)
+{{end}}
+
+## Detailed Theme Analysis
+{{range $theme := .Themes}}
+{{if index $.ThemeSummaries $theme}}
+### {{$theme}}
+
+#### Summary
+{{(index $.ThemeSummaries $theme).Summary}}
+
+{{if (index $.ThemeSummaries $theme).UniqueIdeas}}
+#### Unique Ideas
+{{range $idea := (index $.ThemeSummaries $theme).UniqueIdeas}}
+- {{$idea}}
+{{end}}
+{{end}}
+{{end}}
+{{end}}

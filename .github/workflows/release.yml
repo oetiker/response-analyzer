@@ -1,0 +1,120 @@
+name: Build and Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag (e.g., v1.0.0)'
+        required: true
+        default: 'v1.0.0'
+      prerelease:
+        description: 'Is this a prerelease?'
+        required: true
+        default: false
+        type: boolean
+
+jobs:
+  create-tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Create tag
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git tag -a ${{ github.event.inputs.version }} -m "Release ${{ github.event.inputs.version }}"
+          git push origin ${{ github.event.inputs.version }}
+
+  build:
+    needs: create-tag
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        goos: [linux, windows, darwin]
+        goarch: [amd64, arm64]
+        include:
+          - goos: windows
+            extension: .exe
+            archive: zip
+          - goos: linux
+            extension: ""
+            archive: tar.gz
+          - goos: darwin
+            extension: ""
+            archive: tar.gz
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.inputs.version }}
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+
+      - name: Build
+        env:
+          GOOS: ${{ matrix.goos }}
+          GOARCH: ${{ matrix.goarch }}
+        run: |
+          go build -o response-analyzer${{ matrix.extension }} ./cmd/response-analyzer
+
+      - name: Prepare package
+        run: |
+          mkdir -p release-package
+          cp response-analyzer${{ matrix.extension }} release-package/
+          cp config-sample.yaml release-package/
+          cp README.md release-package/
+          cp ROADMAP.md release-package/
+          cp report-template.tmpl release-package/
+          cp report-template-en.tmpl release-package/
+          cp LICENSE release-package/ || echo "No LICENSE file found"
+
+      - name: Create archive
+        run: |
+          if [ "${{ matrix.archive }}" = "zip" ]; then
+            cd release-package
+            zip -r ../response-analyzer-${{ github.event.inputs.version }}-${{ matrix.goos }}-${{ matrix.goarch }}.zip .
+            cd ..
+          else
+            cd release-package
+            tar -czvf ../response-analyzer-${{ github.event.inputs.version }}-${{ matrix.goos }}-${{ matrix.goarch }}.tar.gz .
+            cd ..
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: response-analyzer-${{ matrix.goos }}-${{ matrix.goarch }}
+          path: |
+            response-analyzer-${{ github.event.inputs.version }}-${{ matrix.goos }}-${{ matrix.goarch }}.${{ matrix.archive }}
+
+  create-release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v3
+
+      - name: List artifacts
+        run: find . -type f
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.event.inputs.version }}
+          name: Release ${{ github.event.inputs.version }}
+          draft: false
+          prerelease: ${{ github.event.inputs.prerelease }}
+          files: |
+            **/response-analyzer-${{ github.event.inputs.version }}-*.zip
+            **/response-analyzer-${{ github.event.inputs.version }}-*.tar.gz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
