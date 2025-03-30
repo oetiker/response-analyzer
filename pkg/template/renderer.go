@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/oetiker/response-analyzer/pkg/analysis"
+	"github.com/oetiker/response-analyzer/pkg/claude"
 	"github.com/oetiker/response-analyzer/pkg/logging"
 )
 
@@ -19,12 +20,14 @@ type ThemeStat struct {
 
 // TemplateData represents the data available in templates
 type TemplateData struct {
-	Themes        []string
-	ThemeStats    []ThemeStat
-	Summary       string
-	Responses     []ResponseData
-	ResponseCount int
-	AnalysisDate  time.Time
+	Themes         []string
+	ThemeStats     []ThemeStat
+	ThemeSummaries map[string]claude.ThemeSummary
+	Summary        string
+	GlobalSummary  string
+	Responses      []ResponseData
+	ResponseCount  int
+	AnalysisDate   time.Time
 }
 
 // ResponseData represents a response in the template data
@@ -120,12 +123,14 @@ func (r *Renderer) prepareTemplateData(result *analysis.AnalysisResult) (*Templa
 
 	// Create template data
 	data := &TemplateData{
-		Themes:        result.Themes,
-		ThemeStats:    themeStats,
-		Summary:       result.Summary,
-		Responses:     responses,
-		ResponseCount: totalResponses,
-		AnalysisDate:  result.AnalysisTimestamp,
+		Themes:         result.Themes,
+		ThemeStats:     themeStats,
+		ThemeSummaries: result.ThemeSummaries,
+		Summary:        result.Summary,
+		GlobalSummary:  result.GlobalSummary,
+		Responses:      responses,
+		ResponseCount:  totalResponses,
+		AnalysisDate:   result.AnalysisTimestamp,
 	}
 
 	return data, nil

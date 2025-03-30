@@ -37,6 +37,14 @@ type Config struct {
 	CacheEnabled bool   `yaml:"cache_enabled"`
 	CacheDir     string `yaml:"cache_dir,omitempty"`
 
+	// Rate limiting configuration
+	RateLimitDelay int `yaml:"rate_limit_delay,omitempty"`
+
+	// Performance optimization configuration
+	BatchSize       int  `yaml:"batch_size,omitempty"`       // Batch size for processing responses
+	ParallelWorkers int  `yaml:"parallel_workers,omitempty"` // Number of parallel workers
+	UseParallel     bool `yaml:"use_parallel,omitempty"`     // Whether to use parallel processing
+
 	// Report template configuration
 	ReportTemplatePath string `yaml:"report_template_path,omitempty"`
 	ReportOutputPath   string `yaml:"report_output_path,omitempty"`
@@ -86,6 +94,23 @@ func LoadConfig(path string) (*Config, error) {
 
 	if cfg.OutputLanguage == "" {
 		cfg.OutputLanguage = "en" // Default to English
+	}
+
+	if cfg.RateLimitDelay == 0 {
+		cfg.RateLimitDelay = 1000 // Default to 1000ms (1 second)
+	}
+
+	// Set defaults for performance optimization
+	if cfg.BatchSize == 0 {
+		cfg.BatchSize = 10 // Default batch size
+	}
+
+	if cfg.ParallelWorkers == 0 {
+		cfg.ParallelWorkers = 4 // Default number of workers
+	}
+
+	if !cfg.UseParallel {
+		cfg.UseParallel = true // Default to using parallel processing
 	}
 
 	return &cfg, nil

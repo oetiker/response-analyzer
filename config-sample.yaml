@@ -34,6 +34,14 @@ state_file_path: "analysis-state.yaml"  # Path to save the state file (optional)
 cache_enabled: true  # Enable caching to avoid repeated API calls
 cache_dir: ".cache"  # Directory to store cache files (optional)
 
+# Rate limiting configuration
+# rate_limit_delay: 1000  # Delay between API calls in milliseconds (optional, defaults to 1000ms)
+
+# Performance optimization configuration
+# batch_size: 10          # Batch size for processing responses (optional, defaults to 10)
+# parallel_workers: 4     # Number of parallel workers (optional, defaults to 4)
+# use_parallel: true      # Whether to use parallel processing (optional, defaults to true)
+
 # Report template configuration
 # report_template_path: "report-template.tmpl"  # Path to the report template
 # report_output_path: "report.txt"              # Path to the output report

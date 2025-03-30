@@ -1,0 +1,3322 @@
+themes:
+    - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+    - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+    - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+    - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+    - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+    - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+    - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+    - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+    - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+    - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+    - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+    - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+    - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+    - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+    - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+    - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+response_analyses:
+    R4:
+        response:
+            id: R4
+            text: "Neugestaltung Fussgänger-Unterführungen City & im Winkel: Werden von Auswärtigen (ArbKollegen LU, BE, BS) gar als Schandflecke wahrgenommen! \n\nWunderbares Bsp.: Ländiweg!\n\nBhf: Mehr Patrouillen zur Erhöhung der Sicherheit, v. a. bis letzte Züge in der Nacht verkehren.\n\nBhf-Buffet: Soll wieder ein gemütliches & feines Restaurant werden!"
+            rowindex: 4
+            hash: 1ae39ee9abef83dd23467a1de35019ed7626fbf1a03d58bfd73913da1ad9fbff
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:11:28.717585+02:00
+    R5:
+        response:
+            id: R5
+            text: Sport und Freizeit
+            rowindex: 5
+            hash: 0aeecf3ec547cb8458587e98dc91a68b09c2771b4b70677d2e52719ce5001a0d
+        themes:
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+        analyzed: 2025-03-30T14:11:28.717595+02:00
+    R6:
+        response:
+            id: R6
+            text: Eigentlich ist das größte Problem, dass die Lösungsansätze immer minimalistisch ausfallen, dies aus angebliche Finanzprobleme. Die ERO ist eine Rumpf-Lösung und hat die Stauprobleme nicht gelöst (z.B.). Ich bin der Meinung, dass man bei (neue) Projekte eher großzügig sein sollte, damit auch für kommende Bedürfnisse vorgesorgt ist. Das nächste wichtige Projekt könnte die Musikschule im Kapuzinerkloster zu platzieren. In Sursee wurde zuerst gespart, mit dem Resultat, dass später neue Räume separat akustisch aufbereitet werden musste, um das Raumangebot auf neue Bedürfnisse aufzurüsten (Fusion mit Kantonsschule, mit Schenkon und Mauensee). Man muss nicht alle Wünsche auf einmal realisieren, aber wenn, dann weitsichtig.
+            rowindex: 6
+            hash: ac78be4894ab8ca06f0683b490fc4e4175568d86bd60344bfd670f639170a6a5
+        themes:
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:11:28.717616+02:00
+    R7:
+        response:
+            id: R7
+            text: "- Fehlende attraktive direkte Parkmöglichkeiten in der Innenstadt für Autos und Fahrräder.\n- Fehlende attraktive und genügend grosse Erdgeschoss-Gechäftsflächen für Ankermieter.\n- Fehlende \"aggressive\" Mietpolitik in der Innenstadt. Die meisten Gebäudebesitzer fehlt die Motivation attraktive Mieter zu finden. Hier muss die Politik handeln. (Kauf von Liegenschaftten, etc.)\n- Fehlende soziale Lösungen betreffend den \"Randständigen\" in der Innenstadt. Weder den \"Randständigen\" wird wirklich geholfen noch den Ladenbesitzer/Bewohner/Einkaufenden. \n- Fehlende \"aggressive\" Politik gegenüber dem Drogenhandel in der Innenstadt (Kirchgasse, Hotel Europe, London Pub, CBD Coffee Shop Schütz, etc.)"
+            rowindex: 7
+            hash: 88842e1b8157239df493bf196a6bb6dc8574c245dea7178ad4b6fcd967f40dfc
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:11:28.717624+02:00
+    R9:
+        response:
+            id: R9
+            text: |-
+                -Sichere und barrierefreie Fahrradwege
+                -Begrünung Kirchgasse
+                -Schulische Integration von Kindern mit speziellen Bedürfnissen (diese Kinder werden aufgrund ungenügend gesprochener Förderlektionen  tendenziell beschäftigt, statt gefördert. Die Ressourcen der Lehrpersonen sind sehr häufig gebunden an 2-3 Kinder mit herausforderndem Verhalten, sodass der Bildungsauftrag für alle Kinder nur ungenügend erfüllt werden kann. Mit den bestehenden Rahmenbedingungen kann der Integrationsauftrag nicht erfüllt werden.
+            rowindex: 9
+            hash: c2ef632fa5ec1b64fd467f846404de610908e602d4f3ab70b3313532e11a2ea4
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:11:28.717632+02:00
+    R10:
+        response:
+            id: R10
+            text: 'Stadtentwicklung und Verkehr: Aarebrücke für Langsamverkehr, Verlängerung Bahnhofsunterführung Ost bis zur Aare, Instandstellung Schandfleck Unterführung Citykreuzung und Fahrrad-Freigabe Winkel-Unterführung.'
+            rowindex: 10
+            hash: a084fa3874ee36faf0687ac5005afa592b592389f0dca6cb17109eb2cc2564a0
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        analyzed: 2025-03-30T14:11:28.717639+02:00
+    R11:
+        response:
+            id: R11
+            text: |-
+                Klima
+                Reduktion Autoverkehr
+                Mehr Begrünung in der Stadt, weniger Parkplätze
+                Mehr Naturschutz
+            rowindex: 11
+            hash: 14527d401a086964d6662a65c44e264876d44f1521f4627752a763c6fabe6e51
+        themes:
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:11:28.717647+02:00
+    R13:
+        response:
+            id: R13
+            text: "Badi im Winter überdachen, wie in Zuchwil. \nDie Öffnungszeiten und die Grösse des Kanti Hallenbades sind für eine Kleinstadt nicht zeitgemäss."
+            rowindex: 13
+            hash: f4032d115060e71ffdc45087e71f6fa8f486f914ad839174c94cf39aa532fc2e
+        themes:
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        analyzed: 2025-03-30T14:11:28.717654+02:00
+    R14:
+        response:
+            id: R14
+            text: "Andere geschäfte als barber-shops, coiffeurs usw. wäre äusserst wünschenswert. \nProgramme für randständige, damit sie aus \nihrer situation rauskommen können. \nIch bin bestimmt viel viel mehr links als rechts. Dennoch ist es teilweise haarig, wie es leute gibt, denen alles durch gelassen wird. Z.b. sozialamt."
+            rowindex: 14
+            hash: 587243d76d3312063c7fd48b21c53c13ba83914079aa1281b94ef38729494e72
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:11:28.717662+02:00
+    R15:
+        response:
+            id: R15
+            text: Aufhören mit Geldverschwendung wie Bau von Begegnungszonen, Aufhebung von kostenpflichtigen Parkplätzen in der Innenstadt bzw. temporäre Umnutzung Munzingerplatz. Wo muss künftig investiert und wo gespart werden?
+            rowindex: 15
+            hash: 58dcf6076252f7619c007000f5c74bbba96a8d41cc8e239d05b23be929884874
+        themes:
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:11:28.71767+02:00
+    R16:
+        response:
+            id: R16
+            text: verkehrsführung für velofahrende und zu fuss gehende, einkaufsmöglichkeiten (die hoffentlich mehr leute in die stadt ziehen würden), attraktivität für vereine
+            rowindex: 16
+            hash: 6d926712e43bb88110f7f434a5627a657cd8e880228703a4861505ee7382345e
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        analyzed: 2025-03-30T14:11:28.717681+02:00
+    R18:
+        response:
+            id: R18
+            text: Unterstützung der Sportvereine
+            rowindex: 18
+            hash: d1dee0e4a2bf8406710e5aae56ec720e8cb8f4fd33700b0f3bcb72369c4d1e69
+        themes:
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        analyzed: 2025-03-30T14:11:28.717687+02:00
+    R19:
+        response:
+            id: R19
+            text: |-
+                Musikschule: grösseres Gebäude, zB Kloster
+                Schulen: Initiativen gegen Mobbing
+                Klima: Foodwaste
+            rowindex: 19
+            hash: 9836ac9ae7d4addba32407516b24d3c5e5b945838e649a9ab83afd6a3d5b3068
+        themes:
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:11:28.717694+02:00
+    R20:
+        response:
+            id: R20
+            text: Verkehr (Fahrradroute)
+            rowindex: 20
+            hash: c91c438cfaf4a68673568c266f2d98fe9021cf786957d13d789e9f521854b2e6
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:11:28.7177+02:00
+    R21:
+        response:
+            id: R21
+            text: Es fehlt an kultivierten (Natur) Parks, verbunden mit darin eingebundenen kulturellen öffentlichen Anlagen. Olten ist zwar eingebettet zwischen Flüssen und Wäldern, doch die Menschen wollen kultivierte Naherholungszonen und Pärke, wo sie flanieren und sich begegnen können. Man hat das Gefühl, dass solche, grössere und mutige Entscheidungen zur Gestaltung seit dem Beginn der Industrialisierung (siehe visionäre Unternehmer wie Niklaus Riggenbach, etc) kaum mehr unternommen wurden. Ich sehe viele Möglichkeiten…!
+            rowindex: 21
+            hash: cd92ac7fcffc94bcdb79a2ce29f2fa67de8bf6a88be9e029f13a1feaaa174e9e
+        themes:
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        analyzed: 2025-03-30T14:11:28.717708+02:00
+    R22:
+        response:
+            id: R22
+            text: Stadtentwicklung, Verkehr, Sport und Freizeit
+            rowindex: 22
+            hash: 4b0dfaafa4776d98e659a6c9ae5ab273b3163d2cd466038abb2c3b8338d9dca5
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:11:28.717717+02:00
+    R23:
+        response:
+            id: R23
+            text: Stadtentwicklung, Verkehr, Bildung
+            rowindex: 23
+            hash: ecee8134050abd97935210077550442ec7e5f142542338c5393419693a1ac653
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+        analyzed: 2025-03-30T14:11:28.717812+02:00
+    R25:
+        response:
+            id: R25
+            text: Integration, Kinderhort in Kleingruppen
+            rowindex: 25
+            hash: 6eaa501e86b5c41d1cd0a08a0219443d97a8ba7894ddee642f2c8389f37cd517
+        themes:
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:11:28.717835+02:00
+    R26:
+        response:
+            id: R26
+            text: 'Stadtentwicklung: hat sich einiges verbessert. Hauptsächlich in der  Innenstadt mit öffentlichen Räumen und Plätzen. Supergau bleibt der Winkel.'
+            rowindex: 26
+            hash: d4f836a32c68dc95daa111b80d7e317b677e0a7b402c8cb379e04f23ff8d9e39
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:11:28.717858+02:00
+    R27:
+        response:
+            id: R27
+            text: Lädelisterben verhindern. Die Altstadt mit Belebung in der Kernzone attraktiv machen, ohne Parkplätze abzuschaffen.
+            rowindex: 27
+            hash: b5e80a74435a42fea779692223ae40a4d89de3e234d659a8cbd2bfc74c53a64f
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:11:28.717872+02:00
+    R28:
+        response:
+            id: R28
+            text: Begegnungs- und Bewegungsraum schaffen - Autos raus wo immer möglich, Bänkli  für ältere Personen, Freiraum für Kinder
+            rowindex: 28
+            hash: d4bc273d53901570f3dcbd8d7cb74de4ee08e307d5ea518dbdb55f5d2325df02
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:11:28.717883+02:00
+    R29:
+        response:
+            id: R29
+            text: Sicherheit
+            rowindex: 29
+            hash: 4474c752608931d97a7d1471967cee891c712af9ce643adbe7cbfbdbdbce7216
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:11:28.717918+02:00
+    R30:
+        response:
+            id: R30
+            text: Genügend Parkplätze in der Innenstadt
+            rowindex: 30
+            hash: 69fb8e5f7c7f97525a53f047687d5ff062d01543245805857b74830bfa06e4b6
+        themes:
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:11:28.71793+02:00
+    R31:
+        response:
+            id: R31
+            text: 'Stadtentwicklung/Soziales: schwierige Stimmung Kirchgasse/Ländiweg aufgrund von Drogen und Alkohol'
+            rowindex: 31
+            hash: 22666e0d6796a70c3504219617d931c06b052aad19cc0e827afa5961225e2da8
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:11:28.718032+02:00
+    R32:
+        response:
+            id: R32
+            text: Parkhaus in Olten.
+            rowindex: 32
+            hash: de36351c612ebbae4460e90ee37b5b12b12474a59ca6f0662f2967d7c9393731
+        themes:
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:11:28.718058+02:00
+    R33:
+        response:
+            id: R33
+            text: Stadtwntwicklung
+            rowindex: 33
+            hash: a7ef93ffc79335c26f720b9d05d916a6dda657965f7adcce48a7ea2ac79dbb84
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:11:28.718068+02:00
+    R36:
+        response:
+            id: R36
+            text: Die Verkehrspolitik mit einer wirtschafts- und ladenfeindlichen Parkplatzpolitik führt leider dazu, dass die Menschen in der Agglo Olten ihre Einkäufe immer mehr im Gäupark oder Perry-Center tätigen. Aktuelles Beispiel ist die Umgestaltung des Munzingerplatzes ohne alternative Parkplätze zur Verfügung zu stellen.
+            rowindex: 36
+            hash: d0988cc8fbca6ecb5cf559aac179e895c5641e1b4b3c9a226ea02030e523a24f
+        themes:
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:11:28.718083+02:00
+    R37:
+        response:
+            id: R37
+            text: Gestaltung des Aareufers, mehr und bessere Zugänge, Liege- und Sitzbereiche am Wasser
+            rowindex: 37
+            hash: f8c65559340a0b2661a332af8e0b533e9583bab7022c3c6ee327e6c3317e0c6f
+        themes:
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        analyzed: 2025-03-30T14:11:32.739956+02:00
+    R38:
+        response:
+            id: R38
+            text: Stadtentwicklung
+            rowindex: 38
+            hash: 5766a50ff35d0f3cb90ef8846fcb6f49cb686a5662abda3d143c77ff6348fed4
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:11:36.818204+02:00
+    R39:
+        response:
+            id: R39
+            text: 'Integration, Inklusion: alle sollen an einem guten (Stadt)leben teilhaben können.'
+            rowindex: 39
+            hash: d4a75589ed570d9aeb09278d77b729b803389b9f58f645062cff7770a397a3e1
+        themes:
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:11:40.143237+02:00
+    R40:
+        response:
+            id: R40
+            text: |-
+                A Fernheizungen
+
+                B Altersprojekte Wohnen ,  vgl. Alderstiftung
+
+                H öV Schöngrundquartier, Bürgerbus
+            rowindex: 40
+            hash: a126366434d930079b819903d2c9a8eaf3549e2d1f110c9bb90c59984bfb057d
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        analyzed: 2025-03-30T14:11:44.130354+02:00
+    R41:
+        response:
+            id: R41
+            text: Stadtentwicklung
+            rowindex: 41
+            hash: 5766a50ff35d0f3cb90ef8846fcb6f49cb686a5662abda3d143c77ff6348fed4
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:11:44.130543+02:00
+    R44:
+        response:
+            id: R44
+            text: Einkaufsmöglichkeiten. Ladensterben
+            rowindex: 44
+            hash: 1b71dcbb54dc4f5f0c1ef6b14a5ee0f0564299ae00ac7bb36c3aa829728593be
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:11:47.966111+02:00
+    R45:
+        response:
+            id: R45
+            text: Handy-/Ipad Gebrauch Oberstufe (ich weiss nicht, ob das ein städtisches Thema ist...?!?)
+            rowindex: 45
+            hash: 9493893f330f413efd1b6ad42090b1d37386dd604e356ff94abaedb6c9b0d0fa
+        themes:
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+        analyzed: 2025-03-30T14:11:52.31934+02:00
+    R46:
+        response:
+            id: R46
+            text: Die konsequentere Umsetzung der angefangenen Projekte
+            rowindex: 46
+            hash: 48c03c7c531ba903658a2f4ccff0799c1e9e29216a8f2c48a3604df7c92b66ff
+        analyzed: 2025-03-30T14:11:57.454596+02:00
+    R48:
+        response:
+            id: R48
+            text: |-
+                DRINGEND !!
+                 Die Innenstadt braucht unbedingt einige Bäume.
+                Denken Sie an Hitzesommer und ein gemütliches Zentrum für die Oltner Bevölkerung. Danke
+            rowindex: 48
+            hash: 9415c356c8ed06fb5b3f11ae7567066b42a615ca9210cf1f3165a9ad8ab90076
+        themes:
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:12:01.507489+02:00
+    R49:
+        response:
+            id: R49
+            text: |-
+                Kultur: guter Veranstaltungskalender
+                Verkehr: Bessere Veloverbindung links rechts
+            rowindex: 49
+            hash: 9426901bb506b99e2d3e29c0f8c16b57022e242e84351a04e0d8c3f1012699e1
+        themes:
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:12:05.261325+02:00
+    R50:
+        response:
+            id: R50
+            text: |-
+                Mehr finanzstarke Unternehmen anziehen, welche Steuersubstrat bringen
+                Mehr attraktive Events in der Stadt
+            rowindex: 50
+            hash: c59497562746d9997217a46a6b328db2f616fd47900a209fa0835843084c2468
+        themes:
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:12:09.447678+02:00
+    R51:
+        response:
+            id: R51
+            text: Umwelt/Luftqualität, Verkehr weg von der Strasse
+            rowindex: 51
+            hash: c603beb83dba104756d0ec61561df4c18d2548f816e48494a5ef20e29e4b50cb
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:12:12.677689+02:00
+    R52:
+        response:
+            id: R52
+            text: |-
+                Bedarf gibt es beim Benehmen der Menschen in der Stadt:
+                Velo- und Trotinettfahren auf dem Bürgersteig, - Rücksichtsloses Überqueren der Strasse der Fussgänger. Polizisten sind "nie" anzutreffen, und wenn, schauen sie weg und achten nicht  ob Sicherheitsvorschriften eingehalten werden.- Hilfsbereitschaft für Ältere hat Seltenheitswert..
+            rowindex: 52
+            hash: 64d829b3c773f701415991add7dd58cd620c1fd6ecfc85ada3630ccd1708efcf
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:12:17.191223+02:00
+    R53:
+        response:
+            id: R53
+            text: |-
+                Minderung von Staus während der Stosszeiten durch Umfahrungen oder Neubau von Verkehr.
+
+                Belebung des Münsterplatzes durch mehr Aktivitäten und Begegnungen.
+
+                Lösungskonzept für die Randständigen und den übermässigen Konsum von Alkohol und das Betteln um Almosen.
+            rowindex: 53
+            hash: ac3b04a6654c2a6957886eae8857902ab51bac2866589bd4dd5a75996343937d
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:12:22.764161+02:00
+    R54:
+        response:
+            id: R54
+            text: |-
+                Der Kanton hat kein Energiegesetz zustande gebracht. Wo steht Olten in dieser Causa? Es sollte die Fotovoltaik mehr unterstützt werden. Bei der Umgestaltung der Kirchgasse wurden keine Bäume gepflanzt. Die Ausrede dafür ist ein Hohn. Es gibt viele Städte mit Bepflanzung und die Feuerwehr kommt trotzdem durch. Da besteht extremer Handlungsbedarf. Der Munzingerplatz sollte verkehrsfrei und mit einem tollen Spielplatz, wie im Stadtpark, ausgestattet werden.
+                Das bringt Leben in die Stadt
+            rowindex: 54
+            hash: 889a5bf114bbae73e87b21442c5a27dd677fe0b698e12de298fc275d69776865
+        themes:
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        analyzed: 2025-03-30T14:12:27.581622+02:00
+    R55:
+        response:
+            id: R55
+            text: Neues Projekt Nutzung Olten Südwest; Stadt besser vermarkten
+            rowindex: 55
+            hash: 90a30b1654c61f7ea7ca2ec263a897d41351de10daf7bc730f9732bcd3fa8d91
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:12:31.639932+02:00
+    R56:
+        response:
+            id: R56
+            text: Ich sehe Handlungsbedarf im kulturellen Bereich
+            rowindex: 56
+            hash: 980e6fcb583c95fa6d28d6b8a37c9d29a2917e753b65ca98403366bc72fb1921
+        themes:
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+        analyzed: 2025-03-30T14:12:35.729268+02:00
+    R57:
+        response:
+            id: R57
+            text: |-
+                Soziales
+                Verkehr
+                Gepflanzte Bäume im Zentrum
+            rowindex: 57
+            hash: e56c51e2252cc1d42cf49c4f126d1551fc5f5c0e793d2d0551924c6919d3b44a
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+        analyzed: 2025-03-30T14:12:39.239671+02:00
+    R58:
+        response:
+            id: R58
+            text: Kein Parkplatz als Stadtzentrum (Schützenmatt).
+            rowindex: 58
+            hash: 358f554095061d713e17affffac91e309b047e76626f3707bf6c6d9ed1e1b542
+        themes:
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:12:42.700551+02:00
+    R59:
+        response:
+            id: R59
+            text: einkauf, leerstehende ladenflächen oder zu wenig auswahl, sodass man auf andere städte ausweichen muss
+            rowindex: 59
+            hash: 246bbffca3a65997899c792b6443f39934015d5e42419f65e8d234a640633f32
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:12:46.858631+02:00
+    R60:
+        response:
+            id: R60
+            text: B,E
+            rowindex: 60
+            hash: 688b05f437170253c3605c1ed4ab80e2ca03c8139204c4186cb452990ccdedb5
+        analyzed: 2025-03-30T14:12:50.99125+02:00
+    R62:
+        response:
+            id: R62
+            text: c
+            rowindex: 62
+            hash: 2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6
+        analyzed: 2025-03-30T14:12:54.889263+02:00
+    R63:
+        response:
+            id: R63
+            text: |-
+                - Grüner werden „Bepflanzung“
+                - Mehr E-Parkplätze
+                - Gastronomisches Angebot am Sonntag
+            rowindex: 63
+            hash: 00fed8013eac4fe1d0c6dbf70053dda745e6bee00ed0402d616eccd7ae7dcf66
+        themes:
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:12:58.507502+02:00
+    R68:
+        response:
+            id: R68
+            text: Generelle Stadtentwicklung  im Einklang von Ökologie, Ökonomie und Wohnen, sowie die Sportstättenplanung.
+            rowindex: 68
+            hash: d590b4290512a8e263fcf8d80e2e390d9ee69d6c570be4049365735854eee4ac
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        analyzed: 2025-03-30T14:13:02.286163+02:00
+    R69:
+        response:
+            id: R69
+            text: Stadtteilverbindung für Velos (Winkel)
+            rowindex: 69
+            hash: 49de1082507f6392909c4ada8b13f55f94d713770ca3348e8ebec9e36d9a9ff4
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        analyzed: 2025-03-30T14:13:05.865076+02:00
+    R70:
+        response:
+            id: R70
+            text: 'Attraktive Innenstadt: Einkaufsmöglichkeiten'
+            rowindex: 70
+            hash: 9359063bde9a90aab149c649eb4d22e0c44089a54bb1854ce4f58ae6e9e770aa
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:13:09.950918+02:00
+    R72:
+        response:
+            id: R72
+            text: |-
+                - Wärmeverbund statt Gas
+                - Bahnhof unterirdisch
+                - Velonetz
+                - verbot von politischen Plakaten im Quartier
+                - Rückbau Olten Südwest mit Neubeginn
+            rowindex: 72
+            hash: fd6366d218d851194c1dca6892b62435dd1439015fb19d8637af84dbc46acd80
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        analyzed: 2025-03-30T14:13:14.134121+02:00
+    R73:
+        response:
+            id: R73
+            text: 'Stadtentwicklung: keine Ghettobildung, Soziales: Chancen bieten anstatt Abrutschen in Kriminalität, gute Bildung für alle'
+            rowindex: 73
+            hash: 5220ed09ed0965069e3f5f1ea9b0fdbf0deb84f789d0fc74b0b92847540133b5
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+        analyzed: 2025-03-30T14:13:17.668898+02:00
+    R75:
+        response:
+            id: R75
+            text: 'Wie schon sehr lange von der Bevölkerung gefordert: zentraler, gut zugänglicher und direkter Aarezugang in der Stadt. Belebung der Innenstadt mit Geschäften/ggf. PopUps etc. Möglichkeit von Übungsräumen (Musik) oder der günstigen Miete davon (z.B. werden nachts öffentliche Bauten wie Schulen o.ä. nicht verwendet). Breiteres kulturelles Angebot inkl. neuer, unverbrauchter bzw. alteingessener Lokalitäten.'
+            rowindex: 75
+            hash: 0bcd3ca02111c28c510fb63254002017d68ca2e981bf8978ad434026ae13ee5f
+        themes:
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:13:23.252004+02:00
+    R76:
+        response:
+            id: R76
+            text: "Ladensterben \nLinke Politik"
+            rowindex: 76
+            hash: 4959f5fa4d1c482b205080bb5491c32b378e790294f2ecc87d1340b1f593965e
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:13:26.97713+02:00
+    R77:
+        response:
+            id: R77
+            text: Innenstadt wieder attraktiver machen mit Läden, mehr begrünen
+            rowindex: 77
+            hash: 6be7260dde30d013f651d356288a6156d2459f337c0971e68ff1f78558b942dd
+        themes:
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:13:30.246128+02:00
+    R81:
+        response:
+            id: R81
+            text: man sollte die Gesundheit der Einwohner schützen,nicht mehr Strahlung zulassen.Wir haben genug Antennen. Wie wärs mit strahlungsfreie Begegnungszonen für Spiele wie Bocvia,Tischtennis etc.
+            rowindex: 81
+            hash: 28a51a23c1752b66c6cd94ba3f3fcfc3c1e740dc4f7bb9fd9941a884ec0c49ba
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        analyzed: 2025-03-30T14:13:34.857734+02:00
+    R82:
+        response:
+            id: R82
+            text: Ausbau Velowege
+            rowindex: 82
+            hash: 48e3fe966582e64e111f652af6fa1b1bbddf8f17f4ec777e8fc614e2793967ef
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:13:37.720341+02:00
+    R84:
+        response:
+            id: R84
+            text: Umwelt und Klima
+            rowindex: 84
+            hash: f5439b14a12b9b25d2775893bbe31a4e5b90cb66265d8f5dcdcffeb816e58257
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:13:40.697728+02:00
+    R85:
+        response:
+            id: R85
+            text: Verkehr und Stadtentwicklung/Umwelt
+            rowindex: 85
+            hash: 95e774b25f932ce84aae5ec826dc503821e8eb4709313e48a6e4337cbf8a4c12
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:13:44.392177+02:00
+    R87:
+        response:
+            id: R87
+            text: Angebote, die Famillie und Beruf ermöglichen
+            rowindex: 87
+            hash: e1f2116af8e8c1d978022afcca26b85a72e44fab564bb5c81e0b13f3e5fde4e0
+        themes:
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:13:47.592819+02:00
+    R89:
+        response:
+            id: R89
+            text: Diversität in Bezug auf sämtliche Alters- und Bedürfnisschichten. Keine Stadtfeste ausserhalb der Stadt in Quartieren mit Rockkonzerte.
+            rowindex: 89
+            hash: a1ef5e84ca387a90dc26f1d4d93d0eff4345a4875c30394132a313f0d53c05e5
+        themes:
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:13:52.803351+02:00
+    R91:
+        response:
+            id: R91
+            text: Gesunde Finanzen, tendenziell Steuern senken und attraktive Stadtentwicklung
+            rowindex: 91
+            hash: 2089a1e91023c62f0b9131064dc39bb9e4736abb4a0b2bb0f34470438df70bf9
+        themes:
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:13:56.303593+02:00
+    R92:
+        response:
+            id: R92
+            text: Eingrenzen des Wachstums der Verwaltung
+            rowindex: 92
+            hash: 5ab85032873779e05062cfdc906553bc0865a6af57bf6955f63584abe5206abe
+        themes:
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:14:00.73945+02:00
+    R93:
+        response:
+            id: R93
+            text: Ausgebaute Velowege, schöne Cafes/ Restaurants die zentral liegen + kinderfreundlich sind.
+            rowindex: 93
+            hash: 15ee2596cfbdf0f4b7b01e6b6fa517943fd23c25c35e30aa513f54b751ddd18b
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:14:04.278418+02:00
+    R94:
+        response:
+            id: R94
+            text: stadtentwicklung
+            rowindex: 94
+            hash: cedd3976487741740ee0b3804c66877e3748b241055d1ff000234df18d9d92ed
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:14:07.831214+02:00
+    R95:
+        response:
+            id: R95
+            text: Veloverkehr
+            rowindex: 95
+            hash: c66fece1839ca27e8837ea77cd111a0cbc3922897288ba473856d0379b5e9a0c
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:14:10.976899+02:00
+    R96:
+        response:
+            id: R96
+            text: Man sollte alles konstruktiv zusammen bringen.
+            rowindex: 96
+            hash: 81a646b782dce6efc9928eed1daddbbc204734e9091b2347608802a254bbfef3
+        themes:
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:14:16.697281+02:00
+    R101:
+        response:
+            id: R101
+            text: Inklusion & Barrierenfreiheit
+            rowindex: 101
+            hash: 55788432a5a5005382c65765a886bacb38e5481df9b94c98ad85356e705e8cdb
+        themes:
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:14:19.750651+02:00
+    R102:
+        response:
+            id: R102
+            text: C) Attraktives Angebot für Jung und Alt; D) frei zugängliche Sportanlagen für alle; F) Aare zugänglich machen, attraktive Läden wie in Langenthal; G) sichere Velowege auch mit Kinder, 20er Zonen; H) Bessere Unterstützung bei alternativen Heizformen, bessere Vergütung aus PV Anlagen
+            rowindex: 102
+            hash: e7680b3c8ccb4164341eb9d566d8ee653874154e8af345fffeb8a3ba00060eaa
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:14:23.879461+02:00
+    R103:
+        response:
+            id: R103
+            text: A-C
+            rowindex: 103
+            hash: 04912b4db11d9342af975a5ccacb8257b2e8e7339a75a6268fb0a6299b118e54
+        analyzed: 2025-03-30T14:14:27.744694+02:00
+    R106:
+        response:
+            id: R106
+            text: Aareufer für Aareschwimmer, begrünte Innenstadt (Blumentöpfe auf Kirchgasse reichen nicht)
+            rowindex: 106
+            hash: dd2a7f7a4fd46f559bde118b4d3ccbd91b3b5e1fc4c536ec3580638e226ae123
+        themes:
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+        analyzed: 2025-03-30T14:14:31.51076+02:00
+    R108:
+        response:
+            id: R108
+            text: Ich würde mir in Olten etwas weniger Barber-und Kebab-Shops dafür mir interessante Fachgeschäfte und innovative Restaurants wünschen.
+            rowindex: 108
+            hash: 0eab94902544f7619f246dc5d22f36b7e62fb7f05db8d9abcc31443fdec5fd73
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:14:34.656949+02:00
+    R109:
+        response:
+            id: R109
+            text: Renovation vom Bahnhof
+            rowindex: 109
+            hash: d5d8eb44f4ef531d7fce79e1fc926c294ca3d9f1bdefa47eac35addb5c8c06cc
+        themes:
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        analyzed: 2025-03-30T14:14:37.53161+02:00
+    R111:
+        response:
+            id: R111
+            text: Verkehr, Stadtentwicklung
+            rowindex: 111
+            hash: e00cd55c9fadaa21c64bc97e8769e223311f7edbbd2efddae1c3ef3b32a9a015
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+        analyzed: 2025-03-30T14:14:40.783962+02:00
+    R112:
+        response:
+            id: R112
+            text: Bezahlbare Alters- Handicapwohnungen für  langjährige Oltner Steuerzahler
+            rowindex: 112
+            hash: 602f29d2162438c8f1a492740854b94dd780d71205c5540eb7fc15ceaa15e437
+        themes:
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:14:44.643388+02:00
+    R113:
+        response:
+            id: R113
+            text: Eindämmung des motorisierten Individualverkehr. Schutz vor Lärm und Emissionen
+            rowindex: 113
+            hash: f389b0ffb630d858754c2803763f602089d94a48c629fcab0b3e23af2cd86a20
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:14:48.389882+02:00
+    R115:
+        response:
+            id: R115
+            text: Bessere velowege
+            rowindex: 115
+            hash: 34ec98188aa3af8b82aa7f997b17ed4dbd595286f6cf2eede741c27462c1e170
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:14:51.221165+02:00
+    R116:
+        response:
+            id: R116
+            text: Mehr Orte für soziales Beisammensein. Organisieren von Events in der Stadt für gross und klein. Öffnungszeiten für Bars am Abend verlängern (auch draussen!). Weniger strenge Richtlinien in der Altstadt für das rausstellen von Tischchen und Stühlen.
+            rowindex: 116
+            hash: 1f515a16f1f7d81de0c275fd0aeeb16b0ee76dfa48d2fcdfbf9cfef115c88c82
+        themes:
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:14:54.968531+02:00
+    R117:
+        response:
+            id: R117
+            text: Kriminalität
+            rowindex: 117
+            hash: f3ea56ca4a173492ec841acedd82ee64e9403ed80d535d81ea58349761092871
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:14:57.591029+02:00
+    R118:
+        response:
+            id: R118
+            text: Umwelt und Klima
+            rowindex: 118
+            hash: f5439b14a12b9b25d2775893bbe31a4e5b90cb66265d8f5dcdcffeb816e58257
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:14:57.59111+02:00
+    R119:
+        response:
+            id: R119
+            text: Fairness & nachhaltigkeit
+            rowindex: 119
+            hash: f23cb670c259528de374c6bcd2f9252ed89f11771e7545b193660c2d5560b9b3
+        themes:
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:15:01.011868+02:00
+    R120:
+        response:
+            id: R120
+            text: |-
+                Velonetz verbessern
+                Bahnhof erneuern
+                Kriminalität
+            rowindex: 120
+            hash: 9efee5fd37aeba065d8e7ceefe0ae06190180d4d6251797f16590489f1e0ec5c
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        analyzed: 2025-03-30T14:15:04.362819+02:00
+    R121:
+        response:
+            id: R121
+            text: Verkehr zu Stosszeiten ist manchmal unerträglich
+            rowindex: 121
+            hash: 478979d8ad6ff2700c3d5139932bd96cd11909c0a8c9dd27dffe348d8ece007d
+        themes:
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:15:07.909576+02:00
+    R122:
+        response:
+            id: R122
+            text: |-
+                - wesentlich mehr Bäume im Strassenraum
+                - Boden entsiegeln
+                - eine gesellschaftliche Initiative um weg con fossilen Energieträgern zu kommen (Wärmepumpe neben jedem Haus ist nicht die Lösung)
+                - weg von der Autonormation in Verkehr und öffentlichen Raum
+                - hin zur Stadt der kurzen Wege, wo Versorgung fprs tägliche Leben in Gehdistanz möglich ist.
+            rowindex: 122
+            hash: 457c83ad6abecef4e2cc3df9876345c59d6ab4ba878320b6e12ca4b3adc18c54
+        themes:
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:15:12.141264+02:00
+    R123:
+        response:
+            id: R123
+            text: Eine gute Stadtentwicklung, die Olten eine Identität gibt
+            rowindex: 123
+            hash: 5458e98003a6ee88117c74985818fc26b85fe9a7ccff40ed5a5d42df357fd497
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:15:16.163142+02:00
+    R124:
+        response:
+            id: R124
+            text: Eine sichere / kindertaugliche Velo -überfahrt zwischen der Fachhochschule und Altstadt
+            rowindex: 124
+            hash: 6f35a212e16fa4a61b5b88e15a5d7f6adbe6e45502e45e6a173a93adb7deaff1
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:15:20.175762+02:00
+    R125:
+        response:
+            id: R125
+            text: Kulturfachstelle
+            rowindex: 125
+            hash: 312f49becbc64ba31895e4d0967e3f23384153a589499cd293b3ed30fe2d9d2e
+        themes:
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+        analyzed: 2025-03-30T14:15:24.388929+02:00
+    R127:
+        response:
+            id: R127
+            text: Soziales
+            rowindex: 127
+            hash: 6514d274f99de6b7691c933228fc79d0a668371a12dcb0df1c43d11e45447be2
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:15:27.866815+02:00
+    R128:
+        response:
+            id: R128
+            text: beleben des aareufers (hot spots, bars, treffpunkte)
+            rowindex: 128
+            hash: 9cdf8518ffa2bac4a703aeb8082333858b85204ad68116429e185bca8feb46fd
+        themes:
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:15:31.759745+02:00
+    R129:
+        response:
+            id: R129
+            text: |-
+                - Stadtteilverbindung
+                - Förderung Langsamverkehr
+                - Ladensterben
+                - Mehr/bessere Grünflächen
+            rowindex: 129
+            hash: 30de2327fd90d021839d55242cffdde978fef5187c25a6bee4c9a635afef572b
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:15:35.850403+02:00
+    R130:
+        response:
+            id: R130
+            text: Weniger Verwaltungspersonen, mehr Macher auf dem Platz. Beschleunigung aller Prozesse (von Baugesuch bis Zeitaufwand)
+            rowindex: 130
+            hash: 0e44f69c3d0a15fa683dfa6c60cd3059cf58619ecf47382856f2772daece4bcf
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:15:40.474644+02:00
+    R131:
+        response:
+            id: R131
+            text: Stadtentwicklung
+            rowindex: 131
+            hash: 5766a50ff35d0f3cb90ef8846fcb6f49cb686a5662abda3d143c77ff6348fed4
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:15:40.474755+02:00
+    R132:
+        response:
+            id: R132
+            text: Verkehr
+            rowindex: 132
+            hash: 037c07de5b1944d8e5d17941b04049bcc194055510150ae8717a33dc951aa1a8
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        analyzed: 2025-03-30T14:15:45.30577+02:00
+    R133:
+        response:
+            id: R133
+            text: |-
+                Es macht  mich traurig zu sehen, dass Littering so stark zugenommen hat. Es gibt wirklich viele Möglichkeiten, den Abfall auch wenn man unterwegs ist zu entsorgen, sogar getrennt. Was die Stadt sonst noch dafür tun könnte? Vielleicht mehr Aufklärung in den Schulen? Vielleicht mit Werbungsplakaten?
+                In einigen Orten gibt es Hinweise, wie viel Liter Wasser ein weggeworfener Zigarettenstummel verunreinigt.
+            rowindex: 133
+            hash: 30d59caf90a3ad299964e0916f4dbda9ed12011416ff42e6f8728e48f8475a81
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+        analyzed: 2025-03-30T14:15:50.099095+02:00
+    R136:
+        response:
+            id: R136
+            text: Mut haben!
+            rowindex: 136
+            hash: ecd5ff85b2681a5285bf68f06f2c804b1e4643ebdc3c97d3986cb947b525322f
+        analyzed: 2025-03-30T14:15:54.471522+02:00
+    R137:
+        response:
+            id: R137
+            text: |-
+                Mehr Grünflächen
+                Mehr und bessere Velowege
+                Stärkung des Langsamverkehrs
+            rowindex: 137
+            hash: 2ec297190039ad1823a8c8d73a0c243042d02897b9e9ba5ded288ebe2c19c139
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:15:58.851804+02:00
+    R138:
+        response:
+            id: R138
+            text: 'Verkehr: gute Verbindungen für Langsamverkehr, auch für Kinder möglich, so dass möglichst wenig Menschen in der Stadt auf ein Auto angewiesen sind.'
+            rowindex: 138
+            hash: 77da763b1165a03b00883343d4f2412e94988d44e4d3d5b41d9f12c319a593af
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:16:03.08913+02:00
+    R139:
+        response:
+            id: R139
+            text: Dass ich als Automobilist von einer Minderhei in meinem Quartier eingesperrt werde finde ich sehr unsozial und von einer Partei die sich für alle Bewohner einsetzt enttäuschend.
+            rowindex: 139
+            hash: c4ffafd717576ade434a66cc829b3b12ebd595a5868497a83aeba0dbf4f6a100
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:16:08.029344+02:00
+    R140:
+        response:
+            id: R140
+            text: Stadtentwicklung Verkehr
+            rowindex: 140
+            hash: ccdb391376925c60878e0b9b0aa58f2c39762b14f5f7c214a3f6794294843ac6
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:16:12.43673+02:00
+    R141:
+        response:
+            id: R141
+            text: Bildung, Betreuung, langsam Verkehr, Grünflächen
+            rowindex: 141
+            hash: 661db342b3fba86964cfdb16c7fedf6a352a8a9da1824820f916045fa005282f
+        themes:
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+        analyzed: 2025-03-30T14:16:16.260152+02:00
+    R142:
+        response:
+            id: R142
+            text: Bildung
+            rowindex: 142
+            hash: 092fe467b8432d2fd56e4ec509c613543e838b08d5c4c6826022da4ea293a734
+        themes:
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+        analyzed: 2025-03-30T14:16:19.094404+02:00
+    R143:
+        response:
+            id: R143
+            text: Bitte mehr Unterstutzung (tiefere Steuern und Mieten) für eine lebendige, vielseitige Innenstadt (Laden, Gastro) - es gibt leider zu viel Coiffeur/Barbier, Pizza/Döner, Physio usw die kaum Leute zum Verweilen anziehen.
+            rowindex: 143
+            hash: a05e85bfdf89411bd901ae81d1c7afec00e571b2af3dc20b709d3988272babc1
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:16:23.499715+02:00
+    R145:
+        response:
+            id: R145
+            text: "Soziales: Sicherheitsgefühl nimmt ab, gefühlt nehmen kriminelle Aktivitäten in der Stadt zu. Ich wurde bereits mehrmals am helllichten Tag von Personen agressiv angegangen. Z. B. wurde ich im 17.30 Uhr auf dem Heimweg von einer Gruppe junger Magrebhiner belästigt, ich musste die Polizei rufen. Am Bahnhof und in der ganzen Stadt immer mehr Bettelnde, z. T. sehr agressiv. Gruppierungen mit Migrationshintergrund, die mir aufgrund ihres Auftretens als Frau Angst machen. \n\nUmwelt und Kultur: noch mehr Stadtgrün schaffen, Kirchgasse mehr noch mehr begrünen. Bereits gute Ansätze.\n\nVerkehr: Sichere Velowege schaffen."
+            rowindex: 145
+            hash: 9b8bc7e58de6707b387b7ee7803ba104641035428807b44f434f1bbe937e71b4
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:16:27.611096+02:00
+    R147:
+        response:
+            id: R147
+            text: Tagesstrukturen an allen Schulen in Olten
+            rowindex: 147
+            hash: d2590fd74970aa2eb2b56a90807b1004d3d6c60949e429dc087eda1404a2541b
+        themes:
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:16:31.505812+02:00
+    R148:
+        response:
+            id: R148
+            text: die Verkehrsprobleme werden seit Jahrzehnten nicht richtig angepackt und gelöst
+            rowindex: 148
+            hash: eac2fce768bee7c981031db9cd3617b5609622c0b9cdbec03b60b651e66a97d0
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:16:34.992822+02:00
+    R149:
+        response:
+            id: R149
+            text: |-
+                Olten hat viel Potenzial, doch es gibt Themen, bei denen gehandelt werden darf um die Stadt für alle Generationen lebenswert zu gestalten.Unsere Stadt braucht mehr grüne Erholungsräume, weniger Beton und mehr nachhaltige Konzepte. Der Langsamverkehr muss attraktiver werden, ohne dass dabei ältere oder mobilitätseingeschränkte Menschen benachteiligt werden. Es reicht nicht, nur Konzepte zu erstellen, sie dürfen gerne umgesetzt werden. Wir brauchen keine leeren Versprechen, sondern echte Veränderungen.
+                Menschen, die es schwer haben, dürfen nicht vergessen werden. Olten muss ein Ort sein, an dem jede und jeder einen Platz findet. Unabhängig von Herkunft, finanzieller Lage oder Lebenssituation. Ältere Menschen brauchen eine Stadt, die barrierefrei ist, junge Menschen brauchen Perspektiven, und Menschen am Rand der Gesellschaft brauchen mehr Unterstützung. Ein gutes Miteinander beginnt dort, wo niemand übersehen wird.Sowie die Kultur ist mehr als nur Unterhaltung ist. Sie ist Identität, Begegnung und Ausdruck. Olten hat viele kreative Köpfe, aber oft fehlt es an Räumen und Möglichkeiten, Kultur sichtbar zu machen. Es braucht Orte, an denen Kunst, Musik und Begegnung entstehen können, nicht nur für etablierte Künstler, sondern für alle, die etwas erschaffen wollen. Eine Stadt ohne Kultur ist leblos. Olten darf sich nicht nur baulich, sondern auch menschlich weiterentwickeln. Nachhaltigkeit und soziale Verantwortung müssen in der Planung eine grössere Rolle spielen. Es geht nicht nur um neue Gebäude, sondern darum, wie wir als Stadt zusammenwachsen. Ein Ort, an dem sich Menschen wohlfühlen, entsteht nicht durch Beton, sondern durch Gemeinschaft.
+            rowindex: 149
+            hash: bb458c91fc234cd8660ebf79450900f34493ca5b2155d5bde6a011e20d1c4c88
+        themes:
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:16:40.0981+02:00
+    R150:
+        response:
+            id: R150
+            text: Die Themen sind alle wichtig! Fokus auf Umwelt, Bildung, Sport und Freizeit, Kultur, Soziales, ja auch Wirtschaft hilft alles, die Stadt lebenswerter zu machen.
+            rowindex: 150
+            hash: 4199ca36f0fc0c740d7fc2ee853bb65e5bd03b115fd71a4ec57ab55d672240b1
+        themes:
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:16:43.782729+02:00
+    R152:
+        response:
+            id: R152
+            text: Stadtentwicklung und Kulturelles Angebot
+            rowindex: 152
+            hash: 7a32f3abeec6068f45ea392f2e849ffff5d1f2a48dc370a3dfb99eb2466525c1
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+        analyzed: 2025-03-30T14:16:46.971014+02:00
+    R154:
+        response:
+            id: R154
+            text: Unterstützung der sportvereine , bessere, öffentlich zugängliche  infrastruktur für sportaktivitäten. Vorallem aber finde ich das etwas getan werden muss, um kleingeschäfte besser z unterstützen, damit es eine grössere vielfalt gibt und die stadt so attraktiver wird
+            rowindex: 154
+            hash: 16ed3727312dc21e3c0fbd102f85450d0cd0a4d7dd95ff644afc59c20f1ad38a
+        themes:
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:16:50.612773+02:00
+    R155:
+        response:
+            id: R155
+            text: |-
+                Nutzung Aare, Restaurant, Café etc.
+                Platz für die Randständigen, nicht mitten in der Stadt.
+            rowindex: 155
+            hash: 197137c679a6a502bc7e160d422c2aef8235ab0042046ca89b27dfd91459b453
+        themes:
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:16:54.520035+02:00
+    R156:
+        response:
+            id: R156
+            text: Stadtentwicklung
+            rowindex: 156
+            hash: 5766a50ff35d0f3cb90ef8846fcb6f49cb686a5662abda3d143c77ff6348fed4
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:16:54.520153+02:00
+    R157:
+        response:
+            id: R157
+            text: Das Leben um die Aare attraktiver zu gestalten und die Randständigen von dem Zentrum Innenstadt weg bringen würde meiner Meinung nach Olten extrem aufwerten.
+            rowindex: 157
+            hash: 42384915ce9cc9c794802d86e704f7aa496cca0600a3b8bdc412d7162d11e123
+        themes:
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        analyzed: 2025-03-30T14:16:59.692572+02:00
+    R158:
+        response:
+            id: R158
+            text: Eine bessere Koordination der Bauvorhaben untereinander (jedes Jahr wird z.B. eine bestimmte Strasse für einen anderen Grund gesperrt). Zudem ist das Thema Soziales (Integration) nicht auf dem Punkt
+            rowindex: 158
+            hash: b7f4cb0b20af10f5cf423d63589207f470d02f01830ab80d85be90baaf6037e0
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+        analyzed: 2025-03-30T14:17:04.286547+02:00
+    R161:
+        response:
+            id: R161
+            text: Umwelt und Klima
+            rowindex: 161
+            hash: f5439b14a12b9b25d2775893bbe31a4e5b90cb66265d8f5dcdcffeb816e58257
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:17:04.287637+02:00
+    R164:
+        response:
+            id: R164
+            text: Stadtentwicklung
+            rowindex: 164
+            hash: 5766a50ff35d0f3cb90ef8846fcb6f49cb686a5662abda3d143c77ff6348fed4
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:17:04.287712+02:00
+    R165:
+        response:
+            id: R165
+            text: |-
+                Mehr Treffpunkte an der Aare (wie das Aaremürli in Solothurn)
+
+                Weniger „junkies“ vis-a-vis vom Mc
+
+                Strengere E-Scooter regeln
+            rowindex: 165
+            hash: 7c5ed95ebbef852914cceb5d01d21fe9a41206fe7485ce82baaaba1a162bf030
+        themes:
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:17:08.422706+02:00
+    R166:
+        response:
+            id: R166
+            text: Olten soll solide wirtschaften mit Geld was sie einimmt. Nicht mehr Ausgeben als Einnehmen. Keine Stadtspezifische zusätzliche Bürokratie für Unternehmen.
+            rowindex: 166
+            hash: 2860aa7868eb16ec17c766d6f95c90b5c51e60f5da6453a3a134bd2911ff5f93
+        themes:
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:17:12.769117+02:00
+    R167:
+        response:
+            id: R167
+            text: Olten als Stadt bietet leider nichts zum einkaufen und alles verteilt gehe meistens ins gäupark oder nach aarau. Bietet auch kein wellnessprogramm (wellnessbad usw) was schade ist wenn man denkt das olten der knotenpunkt der sbb ist.  Für Hundehalter gibt es keinen park wo man mit hunden kann(anscheinend aus hygienischen gründen aber katzen scheissen auch überall hin und es bleibt noch liegen)  und drögler und alkoholiker hinterlassen auch den dreck. Uns als hundehalter bezahlt man und kann nichts machen
+            rowindex: 167
+            hash: 0b6bb149388c28cced0f25fb46a7ee30b83691fe9c465d40b6d02ffa43392a17
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:17:17.330679+02:00
+    R168:
+        response:
+            id: R168
+            text: Lebenshaltungskosten, wie Mieten, Wohnbedarf, Steuern und Strom
+            rowindex: 168
+            hash: 77c0b800589df3be7503dc71e733318d53eec5fdae97165550a3dd3d67d161df
+        themes:
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:17:20.941248+02:00
+    R169:
+        response:
+            id: R169
+            text: Stadtentwicklung, schöne Orte zum Verweilen schaffen (Ausbau Aareufer, Cafés und Restaurants fördern)
+            rowindex: 169
+            hash: 7652015a5d13b1a9407f4c6bc3ef8ae722a01479aa15c4b98eb6d93f9b4d715b
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:17:24.473264+02:00
+    R170:
+        response:
+            id: R170
+            text: |-
+                Garage Oltimo - sehr heruntergekommen & Eingang teilweise geschlossen. Zu hohe Parkgebühren.
+
+                Unterführung sollte besser genutzt werden. Teilweise komische Läden & nichts anziehendes.
+            rowindex: 170
+            hash: dfe6c89c0746ce86db40b79606d0529d2767b6838505a91a1942f2d0c0b6cb3c
+        themes:
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:17:28.54192+02:00
+    R171:
+        response:
+            id: R171
+            text: 'Stadtentwicklung: Ladensterben'
+            rowindex: 171
+            hash: 898f3c12e171aa1da5ec2826987aa84bb6da82f99647bb864c89b9af42d4b6ae
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:17:32.231244+02:00
+    R172:
+        response:
+            id: R172
+            text: Raum schaffen an der Aare.
+            rowindex: 172
+            hash: 394be92ea62aaed1dd64df9e4ecd88804adb8646fcf966aaee238ce0aed972fb
+        themes:
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+        analyzed: 2025-03-30T14:17:36.226587+02:00
+    R173:
+        response:
+            id: R173
+            text: Konkurrenzfähiger Wirtschaftsstandort werden.
+            rowindex: 173
+            hash: e38cb60611ff36c2e8d59d5938bababd9da28ace23369921205ab3cf6d33e4a9
+        themes:
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:17:39.864856+02:00
+    R174:
+        response:
+            id: R174
+            text: Belebung der Innenstadt, z.B. mit einem Marktplatz, da wo jetzt wieder ein Imbiss ist in der Fussgängerzone, mit frischen Angeboten die einladen in der Stadt einzukaufen. Und ein einheitlicher Kanal der diversen Freizeitangebote, Veranstaltungskalender.
+            rowindex: 174
+            hash: fbffd35c7a7ab078974767b88232f17a48bc9bdc1ce6708aab7651461923bcb2
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:17:44.485422+02:00
+    R175:
+        response:
+            id: R175
+            text: "Lärmreduzierung Innenstadt (Autoposer, Nachtruhestörung durch Betrunkene insbesondere Streitereien). Beseitigung der allabendlichen Bordellbeleuchtung im DG des Rest. Olivio. \nAktivere Bewirtschaftung der Ladenvielfalt in der Innenstadt. Reduzierung der Kriminalität (Barbershops, Nagelstudios, Glücksspiel)"
+            rowindex: 175
+            hash: 607a99d99943df8f374d044dbf15741d4a832d5d925335af522f64f0f94f0ea1
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:17:48.579869+02:00
+    R176:
+        response:
+            id: R176
+            text: Sportangebote und Quartierleben
+            rowindex: 176
+            hash: 9efc198d107bdf2a441515143b443ece91a871fa200a71d1778c19731c1e827b
+        themes:
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:17:52.513995+02:00
+    R177:
+        response:
+            id: R177
+            text: Die Stadt hat fast keine Läden mehr dafür Versicherungen, Brillengschäfte, Dienstleistungsfirmen in der Fußgängerzone
+            rowindex: 177
+            hash: c5ca5bdd0d486a94bbd0f91cc59e70ed10e1f9126174112dd102a53bd57dcf12
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:17:55.906282+02:00
+    R178:
+        response:
+            id: R178
+            text: Weniger politischer Parteien Egoismus und nicht mehr an den Oltner Bewohnern vorbei regieren.
+            rowindex: 178
+            hash: 60f37b9c4e511415cf5fea77ab769a2e59739b905e3ff04feceb4871c3a6ffe2
+        themes:
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:18:00.253119+02:00
+    R179:
+        response:
+            id: R179
+            text: |-
+                VELO ROUTEN
+                Stadtquerend
+            rowindex: 179
+            hash: 7915fe1e815ee8bc8a7bdb132d2b1ca846c24e1fb05dff23374daf1c6cb82f27
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        analyzed: 2025-03-30T14:18:03.928463+02:00
+    R181:
+        response:
+            id: R181
+            text: Familie und Verkehr
+            rowindex: 181
+            hash: 8c72462a428a262f7eb94335f49e47a8040c6e2d21dd1678d087b93da934d069
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:18:07.346457+02:00
+    R182:
+        response:
+            id: R182
+            text: "- Ganzjährig Zugang zur Badiwiese \n- Schützi: Piazza statt Parkplatz \n-  Gute In- und Ausstiege für die Aare\n- Publibikes"
+            rowindex: 182
+            hash: 45332bbec8e89391542557a1cc2bb2bcf57d97ad0c97acb593bf006ba2235f10
+        themes:
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:18:11.889655+02:00
+    R183:
+        response:
+            id: R183
+            text: |-
+                Vereine sollten genug und erschwingliche Traingsmöglichkeiten haben.
+                Mehr Möglichkeiten Kulturelle Anlässe zu besuchen für Menschen mit kleinen Finanzen.
+                Kultur und Sport sollte jedem Mensch zugänglich sein.
+            rowindex: 183
+            hash: 797f0f07ebc7f9cbd10fd546028368dfcc1f4dccfbba3194d10fe69efc4f5bc3
+        themes:
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:18:16.090769+02:00
+    R186:
+        response:
+            id: R186
+            text: Verkehr (Quartierteilung Säli)
+            rowindex: 186
+            hash: e15d08f9d10ba15722eb39cacaa636588af2a1430263696e8abeaead273df19e
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:18:19.948408+02:00
+    R189:
+        response:
+            id: R189
+            text: Seit 35 Jahren in Olten und immer noch keine VELOVERBINDUNG  von der rechten zur linken Stadtseite gefunden, die diesen Namen verdient
+            rowindex: 189
+            hash: 0ab2875f7d54d0a23e6d080b54e5b39e607e9925d8ca6201a5417549ad14c4fe
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+        analyzed: 2025-03-30T14:18:24.952521+02:00
+    R190:
+        response:
+            id: R190
+            text: Nachhaltige Entwicklung in allen Bereichen.
+            rowindex: 190
+            hash: 9df7bc946d46ac5479a4781871b7f5a839715665dda91fb851bfc4c4f9ae41a0
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:18:31.483453+02:00
+    R191:
+        response:
+            id: R191
+            text: Stadtentwicklung
+            rowindex: 191
+            hash: 5766a50ff35d0f3cb90ef8846fcb6f49cb686a5662abda3d143c77ff6348fed4
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:18:31.483617+02:00
+    R192:
+        response:
+            id: R192
+            text: Möglichkeiten sich mit Gleichgesinnten zu treffen, Problem Restaurant-Öffnungszeiten (Sonntag/Montag) , auch ohne Konsumzwang
+            rowindex: 192
+            hash: 10b48cbc43751e743c8519577df95326db7160a122c88bda48e5c73ca8a19ff5
+        themes:
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:18:36.092261+02:00
+    R193:
+        response:
+            id: R193
+            text: "Stadtentwicklung: \nVelofreundliche Stadt, öffentlichen Raum attraktiver gestalten, mehr Bäume pflanzen, öffentlichen Raum Begrünen\nVerkehr: \nSicherheit für Kinder und alte Menschen, zum Beispiel bei Baustellen, Signalisation, Veränderungen besser markieren"
+            rowindex: 193
+            hash: 13620dd8a98d38d8abc0b51a29acd806e47666e74d041988f4914ab2b7208687
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:18:39.982454+02:00
+    R194:
+        response:
+            id: R194
+            text: |-
+                Das Ladensterben in Olten, sowohl kleine Läden als auch Migros-Garten-doit.
+                So werde ich als Nichtautofahrer zum Einkaufen aus Olten getrieben! Ich möchte weiter zu Fuss in Olten einkaufen können¨... aber wenn es z.B. keinen Schuhladen für Männer mehr gibt (Coop City hatte ein paar Jahre noch Qualitätsschuhe auch für Männer, jetzt nur noch für Frauen...) und ich zum Schuhkauf nach Aarau, Solothurn oder Langenthal fahre, dann steigt die Wahrscheinblichkeit, dass ich dort auch anderes einkaufe... Oder für ein paar Gartenpflänzchen soll ich jetzt in den ekligen Gäu-Park fahren? - Hat der sog. Stadtentwickler eigentlich ein Pflichtenheft? Dass der jetzt einen halbtägigen Kürbismarkt organisiert und gleichzeitig noch ein paar Läden in der Altstadt geschlossen wurden, ist ja wohl ein Witz.
+            rowindex: 194
+            hash: 8d8f7a8f87052382a6a579566999d4cd52c5ceb680d225107c5220719f3d4195
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:18:46.274361+02:00
+    R195:
+        response:
+            id: R195
+            text: 'Umwelt und Klima: Lichter reduktion, Frösche Zaun (zB Bornfeld)'
+            rowindex: 195
+            hash: 83ec2925a3a63d68b8ac36a57aa11a359d64235e22dd791ce2d59c1b23171ab8
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:18:50.088696+02:00
+    R196:
+        response:
+            id: R196
+            text: Stadtentwicklung
+            rowindex: 196
+            hash: 5766a50ff35d0f3cb90ef8846fcb6f49cb686a5662abda3d143c77ff6348fed4
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:18:50.088804+02:00
+    R197:
+        response:
+            id: R197
+            text: Verkehrsplanung; Olten ist eine sehr gefährliche Stadt für VelofahrerInnen und das schon seit Jahrzehnten!
+            rowindex: 197
+            hash: acc77bab4d1de9574a966bd4f606cf8611558a5a51eff854213c3f3fdf4db797
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        analyzed: 2025-03-30T14:18:54.602629+02:00
+    R200:
+        response:
+            id: R200
+            text: |-
+                Parkplätze nicht aufheben
+                Personenkontrolle und Abschiebung illegaler Personen
+            rowindex: 200
+            hash: 44c5f18d1ea060c100f960fbf524c97f460beb9fcee40ab4aaf5926d315ff13d
+        themes:
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:18:59.252152+02:00
+    R202:
+        response:
+            id: R202
+            text: 'Gleise der SBB tieferlegen (Beispiel Neu-Ulm). Vorteile: Bessere Verbindung der Stadthälften, bessere Zugang zu den Gleisen, Gewinn von zentralen Flächen über den teilweise überdecken Gleisen, ...'
+            rowindex: 202
+            hash: 109679455986a515a1928e38512535cf42f138b02deef9a82b2bf86b32d4bd24
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:19:04.733351+02:00
+    R203:
+        response:
+            id: R203
+            text: ÖV und Langsamverkehr, lebenswerte Räume. Kultur, die Faschisten fernhält - Dazu gehört auch bezahlbar zu sein (keine Steuergelde unnötig verschwenden).
+            rowindex: 203
+            hash: 556c20c244d8b3ac642623d9f0392d6d617d42da3a7fcdd907a43be09df57626
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:19:09.324936+02:00
+    R205:
+        response:
+            id: R205
+            text: Wozu ist drr Ortsbildschutz in gewissen Zonen gut? Er schränkt Um- und Ausbau, Sanierungen und sinnvolle Aussendämmung ein.
+            rowindex: 205
+            hash: d0cc707784e79918293138d4b87f9138277961d3c2da7ed649f53c330d461fe6
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:19:14.235391+02:00
+    R206:
+        response:
+            id: R206
+            text: Transparenter, alles muss OpenData werden udn es darf keine Geheimnisse gegenüber der Bevölkerung geben, z.B. dass man plant eine 15-Minuten Stadt draus zu machen. Sowas darf einfach nicht geheimgehalten werden.
+            rowindex: 206
+            hash: 90d207039142785b8fe21d8fdfbf99291c8a82e46ccbb7531700831e40a3df54
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:19:19.055551+02:00
+    R208:
+        response:
+            id: R208
+            text: Gleichbehandlung der Verkehrsteulnehmer
+            rowindex: 208
+            hash: 686453b4d44bc345b616ebcf1eb3520ec67645c01b2344e68e2b99d21e8f2c64
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:19:23.571927+02:00
+    R209:
+        response:
+            id: R209
+            text: Lebenswerte Stadt entwickeln
+            rowindex: 209
+            hash: f5b85b8f385eb4274b4bc94cae909b59dea82b968c556dc179b88361ad46c125
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:19:27.58299+02:00
+    R210:
+        response:
+            id: R210
+            text: 'Soziales: Drogenproblematik'
+            rowindex: 210
+            hash: 52b4bc032fb041b8fdaabeb11d6cd1ec27800c075f57c803f1d7bab9cfb574bb
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:19:31.110869+02:00
+    R211:
+        response:
+            id: R211
+            text: Bessere Veloverbindungen, zentrale Parkplätze (Munzinger, Kirchgasse) aufheben um Plätze für Menschen zu schaffen, Zugang zur Aare weiter verbessetn
+            rowindex: 211
+            hash: e1aa58cf063141650aae37262c2e8d428e769e9054b13ff0850e7d108f34b226
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:19:35.052501+02:00
+    R212:
+        response:
+            id: R212
+            text: Velowege, weniger Autos, mehr ästhetisch Caffee und Bäckereien im Stadtzentrum (wie bspw Bloomellcaffehouse), wieso gibt es das Europe Hotel noch? Wird ja eh nicht als Hotel genutzt (keine Buchungen möglich) -> nutzen für familienfreundliche Caffees, mehr Bäume in der Stadt (Hitzeschutz), Stadtfest einführen?
+            rowindex: 212
+            hash: 70a391281339add00451444e432be0b513b5c17a80d2c637c1cdea2d7ff8e2f7
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+        analyzed: 2025-03-30T14:19:40.70316+02:00
+    R214:
+        response:
+            id: R214
+            text: "Im Verkehr: sichere Velowege, Autofreie Strassen, Begegnungszonen\nBildung: Chancengleichheit, breites Bildungsangebot, Zugang für alle\nSport und Freizeit: Unterstützung der Pfadi Olten(Vereine)\nSoziales: Begegnungsorte, Zusammenleben, Gestaltung im öffentlichen Raum \nUmwelt und Klima: Nutzung von Photovoltaik auf öffentlichen Gebäuden"
+            rowindex: 214
+            hash: 995a316a1f47b0fdf21945e4b1c6fa9b6fcd288cd47527fea1c789be1c652b8b
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:19:44.836474+02:00
+    R215:
+        response:
+            id: R215
+            text: |-
+                Verkehr: braucht es wirklich abgesperrte Strassen morgens und abends im Säliquartier? im Vergleicht mit grösseren Ortschaften ist der Durchgangsverkehr zumutbar.
+                VELOFAHRER: verlangen viel, halten sich jedoch nicht an die Verkehrsregeln. Keine Beleuchtung, kein Rücklicht, keine Handzeichen (ebenfalls Säliquartier). Mofa-Fahrer brauchen da keine Helme!
+                Sauberkeit an gewissen Orten lässt sehr zu wünschen übrig, Winkelunterführung!
+            rowindex: 215
+            hash: 6234922ce2d5185b70827987854be1854c5dbfefd937cf3711c8c75ec58bc683
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:19:49.290165+02:00
+    R217:
+        response:
+            id: R217
+            text: Die Tendenzen nach rechts in der ganzen Welt, aber auch im Kanton Solothurn bereiten mir Sorgen. Das soziale Miteinander, die Sorge zur Umwelt und eine gute Bildung sind deshalb für mich ganz zentrale Anliegen!
+            rowindex: 217
+            hash: 7126b56594168d2a49752784479d3c1edb41430be35ecfeaef322cb0505de106
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:19:53.238438+02:00
+    R218:
+        response:
+            id: R218
+            text: Rechtsgrundlage erschaffen und Seilschaften abschaffen.
+            rowindex: 218
+            hash: 84202d1632ffc4e9236aadbf3989228a6830488fe3abc14000c71645f4d083c4
+        themes:
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:19:57.121821+02:00
+    R219:
+        response:
+            id: R219
+            text: |-
+                - Fremddurchfahrten in Anwohnerquartiere
+                - Hobby-, Bastel-, Sportlädeli
+                - Velotransfer von rechte nach linker Aarenseite
+                - Wälder weniger radikal bewirtschaften (Naherholungsgebiete)
+            rowindex: 219
+            hash: 28f71c9fa78033e151c9dc3ecdaa0018164b5d5da521d215d855a113c055bf74
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:20:01.464037+02:00
+    R220:
+        response:
+            id: R220
+            text: Stadtentwicklung >  innovative Geschäfte in der Altstadt
+            rowindex: 220
+            hash: da5b5bfe74d55c477050fd852001017a2d63d19529f2e304df20d34ff9c7c043
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:20:06.021966+02:00
+    R221:
+        response:
+            id: R221
+            text: ÖV Strategie für den Kanton Solothurn
+            rowindex: 221
+            hash: cea27ca045767d7daa5ac1e1ce696bde39648535a667b2f42e376800112adbd2
+        themes:
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        analyzed: 2025-03-30T14:20:09.806509+02:00
+    R222:
+        response:
+            id: R222
+            text: Ausgangsmöglichkeiten, Cafés, Aare-Gestaltung
+            rowindex: 222
+            hash: a9912eea2acc4760fe928797b4f014e35d601abdbe7266278441cd74713d9fe7
+        themes:
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:20:13.52089+02:00
+    R223:
+        response:
+            id: R223
+            text: "unbedingt saubere/moderne/schöne Toiletten öffentlich zugänglich erschaffen.Hygiene und zur Toilette gehen zu können auch im Notfall ist ein Grundbedürfnis. Straßen und Plätze besser sauber halten (Männer pinkeln überall hin). \nDating-Treffen organisieren auch zum Freunde kennen lernen. Interaktive ungezwungene Treffen. Karaoke sollte viel mehr sein und Paartanzmöglichkeiten."
+            rowindex: 223
+            hash: 00948e9f50aa63b68df9e32a551132e2d3b82f9daa759942ebfc3f6f51953373
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:20:17.915117+02:00
+    R224:
+        response:
+            id: R224
+            text: Die Möglichen Parkmöglichkeiten unmittelbar in der Altstadt sind ungenügend. Der Ladenmix sehr sehr ausgedünnt. Was ist los mit einer Stadt der nur Barbershops und Piercing Studios sich vermehren.
+            rowindex: 224
+            hash: 1419f261b3f8fc3ce47d0b4aafa6d362d8c936783094a2716f2929e83b85ccd2
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:20:21.638506+02:00
+    R225:
+        response:
+            id: R225
+            text: Viel zu viele Barbershops und Kebabläden.  Im ehemaligen ABM Gebäude steht Demnächst,  Bald.... was soll das ????
+            rowindex: 225
+            hash: 7869d169066f77f98fb7ab787478526ebcf45ff07050d2dc102eb976e78071ea
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:20:26.223502+02:00
+    R228:
+        response:
+            id: R228
+            text: Langfristige Planung, Vision der Stadt haben, so dass Entscheidungen von heute begünstigen was morgen sein soll. Pro-aktive Entwicklung.
+            rowindex: 228
+            hash: 914311769e67188f02044e74ec61841d92dd365ab22b65b5529f71fa76af0376
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:20:30.420479+02:00
+    R230:
+        response:
+            id: R230
+            text: Die Stadt ist zu fest Beton. Mehr Begrünung, um sich wohl zu fühlen. Und kann amn Kebap und Barber begrenzen? Ist es nicht logisch, dass Geld gewaschen wird? Und es nimmt der Stadt die Vielfalt.
+            rowindex: 230
+            hash: 3a8a1bae82348a04f1910f4b9ce4a691a97b6acf41143659de28762f62400f0c
+        themes:
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:20:34.469515+02:00
+    R231:
+        response:
+            id: R231
+            text: |-
+                B – Förderung von Sport und Bewegung im Alltag
+                Der Ausbau von Outdoor-Fitnessanlagen wäre eine wertvolle Investition in die Gesundheit der Bevölkerung. Im Allgemeinen sollte Sport aktiver gefördert werden – etwa durch niederschwellige Angebote in Quartieren oder Kooperationen mit Schulen und Vereinen.
+
+                C – Sozialpolitik mit Gegenleistung und Integration
+                Statt reine Sozialauszahlungen zu leisten, sollten unterstützte Personen stärker in gemeinnützige Arbeiten eingebunden werden. Dabei könnte ein System etabliert werden, das auf Leistung basiert – mit Kost und Logis als Gegenwert.
+                Ein weiterer wichtiger Punkt ist der Ausbau von Kitas: So können beide Elternteile arbeiten, was wiederum höhere Steuereinnahmen generiert.
+                Zudem sollte der Spracherwerb konsequenter gefördert werden – Kinder, die bei der Einschulung nicht über ausreichende Deutschkenntnisse verfügen, sollten zunächst Förderklassen besuchen, um Chancengleichheit sicherzustellen.
+                Was das öffentliche Erscheinungsbild betrifft: Personen, die durch Alkohol- oder Drogenkonsum auffallen oder randständiges Verhalten zeigen, sollten mit Aufenthaltsverboten belegt und konsequent kontrolliert werden – für ein sicheres und gepflegtes Stadtbild.
+
+                D – Stadtleben stärken und Entlastung für Gastronomie
+                Fahrradwege müssen weiter ausgebaut werden, um den innerstädtischen Verkehr nachhaltig zu entlasten. Gleichzeitig braucht es weniger bürokratische Hürden für Gastronomiebetriebe – diese sollen unkompliziert und flexibel wirtschaften können, besonders im Aussenbereich.
+
+                E – Verkehrsentlastung und Infrastruktur
+                Die täglichen Staus in und um Olten müssen endlich ernsthaft angegangen werden. Bessere Verkehrsführung, gezielte Umfahrungsmöglichkeiten und smarte Lösungen für Engpässe sind dringend notwendig.
+
+                G – Effizienter Einsatz von Steuergeldern
+                Steuergelder müssen mit Weitblick, wirtschaftlich und rational eingesetzt werden. Klare Prioritäten, transparente Budgets und nachhaltige Investitionen sollen im Vordergrund stehen.
+            rowindex: 231
+            hash: b1933aa0cfcade2f4eff00dca2026dbd8e0274c20563ee15f29989dd9bd8f2d8
+        themes:
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:20:40.04371+02:00
+    R232:
+        response:
+            id: R232
+            text: Wirtschaft
+            rowindex: 232
+            hash: 314cc42151533699593a8b9ba6f6b0be99b3b29c9e1f58331716bd566ce79b33
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:20:43.981494+02:00
+    R233:
+        response:
+            id: R233
+            text: |-
+                Velo-Verkehr
+                Kulturförderung
+            rowindex: 233
+            hash: d3c9679d78312b51050d4b70da7914736afb6f70bb76b26bb185b5085462c8b9
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+        analyzed: 2025-03-30T14:20:47.359314+02:00
+    R235:
+        response:
+            id: R235
+            text: Ladensterben
+            rowindex: 235
+            hash: 29ebbb6566ebb4cf097288925d4fd5d3ec6169cadf58a96c3834765733831a17
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:20:50.386432+02:00
+    R237:
+        response:
+            id: R237
+            text: |-
+                Die smarten Lampen sind sicher gut für die Umwelt, für mich jedoch ein Sicherheitsmanko. Viel zu oft stehe ich im Dunkeln. Ich fühle mich nicht mehr wirklich sicher in dieser Stadt. Nicht nur wegen der Lampen, sei hier betont.
+                Wenn in meiner Strasse hauptsächlich Frauen mit Kopftüchern und junge Männer aus fremden Ländern passieren, dann bin ich hier nicht mehr wirklich zuhause.
+            rowindex: 237
+            hash: c25f510e9de6bef2bf14ce91cb2df9597d5f27e351b732db914515b5f01aa47e
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:20:54.087581+02:00
+    R238:
+        response:
+            id: R238
+            text: Velowege, Begegnungszonen, Kulturveranstaltungen und Kinderbetreuung
+            rowindex: 238
+            hash: fb993b2906e9b93a426f5cd9965baa0f1ba58bc030f15a8a1b01aa34f574b0a9
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:20:58.097815+02:00
+    R239:
+        response:
+            id: R239
+            text: Begrünung der Betonflächen, niedrigere Mieten für Gewerbe in der Innenstadt, Innenstadt beleben, Fernwärme zentral, Turnhallen für Vereine zugänglich machen, Begegnungsorte schaffen.
+            rowindex: 239
+            hash: ff4ca7e270dd0cf998031f160aa3b456aa31b5ecc07f7db8cf20f716af2ac9cb
+        themes:
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+        analyzed: 2025-03-30T14:21:03.14195+02:00
+    R240:
+        response:
+            id: R240
+            text: Attraktivere und sicherere Infrastruktur für den Langsamverkehr
+            rowindex: 240
+            hash: 5a8cd8a00f379bdaa0a3937e24867f3b9e4ce622ee0af3a54302d90c452dab8f
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        analyzed: 2025-03-30T14:21:07.836463+02:00
+    R241:
+        response:
+            id: R241
+            text: |-
+                Verkehrssituatuon Bahnhof
+                Fehlender Busbahnhof
+            rowindex: 241
+            hash: bd9d85b9e5bf0257fa4bfb4ca1f23127d301446f5dc8668fa31f77e9a330772d
+        themes:
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        analyzed: 2025-03-30T14:21:11.499788+02:00
+    R243:
+        response:
+            id: R243
+            text: Verkehr (Solothurnerstrasse 286-288, der Lärm der Strasse ist fast nicht auszuhalten und macht krank. Hier wäre eine 30 er Zone sehr hilfreich)
+            rowindex: 243
+            hash: 810f4aae83d85b5b8b17538278f0409b89c35800f3b76ca7a7dbf4272f3aab91
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:21:16.170407+02:00
+    R245:
+        response:
+            id: R245
+            text: Wirtschaft
+            rowindex: 245
+            hash: 314cc42151533699593a8b9ba6f6b0be99b3b29c9e1f58331716bd566ce79b33
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        analyzed: 2025-03-30T14:21:16.170504+02:00
+    R246:
+        response:
+            id: R246
+            text: Gute Veloinfrstruktur in der Stadt. Mehr Grünflächen und Biodiversitätsförderung.
+            rowindex: 246
+            hash: 37851ba0303310ffc98ca2a495cf3c47fec1583aa2e07db88c78f0c718a1479b
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:21:20.00675+02:00
+    R247:
+        response:
+            id: R247
+            text: "Komplette Stadt. \n30er Zone und grüne Welle.\nWeil. \nArbeitsverkehr kann nicht schneller fahren. Lärmschutz bei Nacht und frühen Morgenstunden ist dann \ngegeben. Ich fahre kein Fahrrad, aber ich überhole diese und bin glücklich wenn gerade kein Auto aus einer Seitenstrasse kommen möchte. Von Verkehrsanfängern möchte ich garnicht reden, wie schwer die sich tun bei schwierig einzusehenden Strassen diese dann zu überqueren.\nIch finde die Zebrastreifen sind zu nah am Kreisel. Da kann man sich als Auto gar nicht hinstellen ohne den Streifen zu blockieren."
+            rowindex: 247
+            hash: 535e65809391732f63254c287aacdc120eb0051fee71c48e501251274ef98c1c
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:21:23.851647+02:00
+    R248:
+        response:
+            id: R248
+            text: Kulturkonzept
+            rowindex: 248
+            hash: ba2dc99c9b23f1e0634bc57ce68e9ccabd17422ad968d0bdfc8a062c3e8e9b1b
+        themes:
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+        analyzed: 2025-03-30T14:21:26.969904+02:00
+    R249:
+        response:
+            id: R249
+            text: Bei Bildung, Umwelt und Klima und auch bei Inklusion
+            rowindex: 249
+            hash: ab0a4c70732f2e4f61dd291204eb1dd4f9e6c45e508331c9c1cbfabcc0b1ba07
+        themes:
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:21:29.846225+02:00
+    R250:
+        response:
+            id: R250
+            text: Alter/Altersbeirat, etc.
+            rowindex: 250
+            hash: 0d03ae92fcf1dd66b036819062d09bc99bc023e03135a5e7490028548e210c7e
+        themes:
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:21:33.37457+02:00
+    R251:
+        response:
+            id: R251
+            text: Verkehr
+            rowindex: 251
+            hash: 037c07de5b1944d8e5d17941b04049bcc194055510150ae8717a33dc951aa1a8
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        analyzed: 2025-03-30T14:21:33.374732+02:00
+    R252:
+        response:
+            id: R252
+            text: "Miteinander statt gegeneinander \nOffener Dialog fehlt, zuhören und gemeinsam Lösungen entwickeln"
+            rowindex: 252
+            hash: 90d3fe2abbff37342424b3ed26cd73adf30878ecba62da33c36a04b735e02c6c
+        themes:
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:21:37.543567+02:00
+    R253:
+        response:
+            id: R253
+            text: |-
+                Sichere Veloverbindungen, v.a. zwischen linker und rechter Aare-Seite (Stichwort Postplatz, Winkelunterführung).
+
+                Unternehmenssteuern nicht weiter erhöhen.
+
+                Bezahlbare KiTa Plätze.
+            rowindex: 253
+            hash: 6ae1988b4808eec2e648564a2b9b649f30b2d9059ab521f5932742ca3927ee33
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:21:41.379375+02:00
+    R256:
+        response:
+            id: R256
+            text: Ladenvielfalt in der Innenstadt, das störende Milieu bei der Stadtkirche
+            rowindex: 256
+            hash: 10dce77866bb14669d29174f51d92e0c4f93a79e229eb4766ee5c828a2b3ab06
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:21:45.47207+02:00
+    R257:
+        response:
+            id: R257
+            text: Stadtentwicklung und Umwelt/Klima
+            rowindex: 257
+            hash: e420f7fd637f482373b5525a25e04721efe3846b654e098a672632406605ea61
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        analyzed: 2025-03-30T14:21:49.081169+02:00
+    R259:
+        response:
+            id: R259
+            text: Stadtentwicklung zusammen mit der Entwicklung des Wirtschaftsstandortes Olten
+            rowindex: 259
+            hash: 25f09ce8ee5cd4017b389e62c497de7600bf0d99e0a45dc4bd21f28802bebfc3
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:21:53.168688+02:00
+    R260:
+        response:
+            id: R260
+            text: Das Sicherheitsgefühl in Olten ist schlecht, es hat viele zwielichtige Gestalten.
+            rowindex: 260
+            hash: a74d7bd592f159616d5ae78f227d56f26d08a49462c5584234c8ad748f96c2ba
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:21:56.980906+02:00
+    R261:
+        response:
+            id: R261
+            text: 'Ganz persönlich und aktuell: Unser kleines Reihenhaus ist Teil einer sogenannten "Siedlungseinheit". Über Baugesuche entscheidet die Altstadtkommission. Was diese Kommission abliefert, geht auf keine Kuhhaut. Wir sollten die Fenster durch energetisch gute neue Fenster ersetzen. Sollte doch eigentlich einfach sein. Hat aber 2 Jahre gedauert und am Ende fast doppelt so viel gekostet, wie die erste Offerte eines lokalen Schreiners. Mit den Nerven war ich nach den zwei Jahren auch ziemlich am Ende.'
+            rowindex: 261
+            hash: fa0d48322a0f975e2ac120a14f9cd3678f65be8e181bec413b84817c2fbaf2f0
+        themes:
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:22:01.942505+02:00
+    R262:
+        response:
+            id: R262
+            text: |-
+                Parkplatzsituation Innenstadt
+                Ladensterben
+                Sich sicher fühlen in der Stadt
+            rowindex: 262
+            hash: 338e75a3b9ac07811954f64c3d285974310821675b3ab1227c229c0d1fc5fd89
+        themes:
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:22:05.648167+02:00
+    R263:
+        response:
+            id: R263
+            text: Olten weiterhin als attraktive Stadt zum Wohnen zu entwickeln.
+            rowindex: 263
+            hash: 0620ee4b268cadff6ac81b2d8bdfaafeeff0ef50edc642da171ba85e5bfdbbea
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:22:09.850289+02:00
+    R264:
+        response:
+            id: R264
+            text: Bei Sport und Freizeit
+            rowindex: 264
+            hash: 54aa702e6d7f2ae8b999b72da29683d805a74a4fa6d15ce29b36f10b0e8a96e6
+        themes:
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+        analyzed: 2025-03-30T14:22:13.104037+02:00
+    R265:
+        response:
+            id: R265
+            text: |-
+                Mehr Grünflächen, Waldschutz und -ausbau, naturverbundene Angebote/Bildung in Schule und Freizeit für Kinder, Jugendliche und Erwachsene
+                Dass der Drogenmarkt endlich konsequent bekämpft wird und man sich umfassend um deren lokale Opfer kümmert.
+            rowindex: 265
+            hash: 00ad7ce5f496015abda973e047bb15327832ac9b7060c93ca8df4e89f8e677c9
+        themes:
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:22:17.071161+02:00
+    R266:
+        response:
+            id: R266
+            text: Soziales
+            rowindex: 266
+            hash: 6514d274f99de6b7691c933228fc79d0a668371a12dcb0df1c43d11e45447be2
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:22:17.073508+02:00
+    R267:
+        response:
+            id: R267
+            text: Mehr Angebote für Kinder unter 1 Jahr
+            rowindex: 267
+            hash: e8a1a6848257d4f5b92122722b01eb29825ca7c5fcb806da7ecb05dca0b5e6ce
+        themes:
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:22:20.461722+02:00
+    R268:
+        response:
+            id: R268
+            text: |-
+                Kinderbetreuung ausbauen
+                Günstige Freizeitaktivität
+                Velowege ausbauen
+            rowindex: 268
+            hash: f8c256ea2bb47f8c6d3c20eb40dd688a33a6b46ee532c5ee61b31b470b1c6f95
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:22:24.064664+02:00
+    R269:
+        response:
+            id: R269
+            text: Verkehr! Es hat immer sehr viel Stau.
+            rowindex: 269
+            hash: c45ba1ad18f8a895a407220446ccf1d5df6d89e46881ec46156244a25d1cd264
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        analyzed: 2025-03-30T14:22:27.624521+02:00
+    R270:
+        response:
+            id: R270
+            text: mehr kulturelle Angebote für Familien, Begegnungszone (sinnvoll) nutzen
+            rowindex: 270
+            hash: 2f1dc905cb186bb326cee7eeb64d761f49b9c99bf29e706fb596bf9d1a160f7c
+        themes:
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:22:31.477374+02:00
+    R272:
+        response:
+            id: R272
+            text: 'Das grösste Plus von Olten ist die öffentlich Verkehrsanbindung. Von Olten aus ist man schnell in anderen Städten, die eine stärke Wirtschaft und damit mehr Arbeitsplätze vorweisen können als Olten. Olten wird wirtschaftlich den Grossstädten nicht den Rang ablaufen, sie kann es aber, indem sie deren Arbeitnehmer/innen zum Wohnen nach Olten lockt. Hierfür benötigt es aber eine attraktive Stadt: schöne Wohnungen, die auch ein bisschen mehr Kosten dürfen sowie ein gutes After-Work Angebot (Bars, Restaurants) und Angebote für das Weekend (Sport, Plätze zum Verweilen etc.).'
+            rowindex: 272
+            hash: 6dbbb767423f007eb5fde53a5a34c6b5163fa211cb249752c06d65a1c2764082
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:22:36.890629+02:00
+    R273:
+        response:
+            id: R273
+            text: Mehr Diversität und Kreativität im Bereich Gastronomie / Gastronomiekonzepte (anstatt noch mehr Dönerbuden). Grünflächen als Begegnungszonen.  Attraktive Geschäfte in der Innenstadt, die wieder mehr Menschen anziehen. Günstigerer Badi-Eintritt für Familien mit niedrigem Einkommen.
+            rowindex: 273
+            hash: e0a31dbc9a9bf3161077beffd2b6aff99273093aa03fec551749826d6e2af932
+        themes:
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        analyzed: 2025-03-30T14:22:41.171989+02:00
+    R274:
+        response:
+            id: R274
+            text: Angebote für Kinder und Familie
+            rowindex: 274
+            hash: fe54abd3f35ac9b9361a17b7ffd5474c1bcf7e63eb25c32fd522e55628d47021
+        themes:
+            - 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+        analyzed: 2025-03-30T14:22:45.152624+02:00
+    R277:
+        response:
+            id: R277
+            text: In Olten beim Verkehr - die Stadt ist immer noch sehr auf das Auto ausgerichtet. Meiner Meinung nach zu viele Parkplätze und zu wenige Freiräume…
+            rowindex: 277
+            hash: 3b81937c7e6e7abebe51fe61ab0bbe92c1b6a578f7cdbe38c6e11b2d8ae96f91
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+        analyzed: 2025-03-30T14:22:49.230633+02:00
+    R279:
+        response:
+            id: R279
+            text: Stadtentwicklung. Keine namhafte Geschäfte, die die Einwohner anziehen und zum lädeli in Olten animieren. Entwicklung zur Schlafstadt
+            rowindex: 279
+            hash: be2971d6b52f884035453939603f8a15dcbb0cf176d422f7843f4efa06738dba
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        analyzed: 2025-03-30T14:22:53.222514+02:00
+    R280:
+        response:
+            id: R280
+            text: "Soziales: Die Roma-Banden, die immer mal wieder in Olten auftauchen, müssen gestoppt werden. Auch die Clochard-Szene bei der Stadtkirche ist nicht sehr anmächelig. \nWenn ich wegen der Roma aber SVP wählen muss, damit dieses Problem EXPLIZIT benannt und behandelt wird – Ausländerkriminalität explizit benennen war leider noch nie eine linke Stärke – macht das aber nicht so bock, héhé…"
+            rowindex: 280
+            hash: 7a41f409f2509849c973be5e523d19a07eda561fb65cb2b65dbb54c1030d9ba0
+        themes:
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:22:57.569623+02:00
+    R281:
+        response:
+            id: R281
+            text: Verkehr und Soziales
+            rowindex: 281
+            hash: d759e702fabc3a66bc2b52ac6a2b12a165fd271b55c2af0e995171df4893165e
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+            - 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        analyzed: 2025-03-30T14:23:00.833585+02:00
+    R284:
+        response:
+            id: R284
+            text: Basketballplatz
+            rowindex: 284
+            hash: 787b8a82a2e3f602c0d8a4675d102a3e3c8ffa4a1bf13ce798fd2beaac37d66f
+        themes:
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        analyzed: 2025-03-30T14:23:03.922517+02:00
+    R285:
+        response:
+            id: R285
+            text: |-
+                Sichere Veloverbindung der beiden Stadtseiten ohne verwinkelte Unterführungen.
+                Als provisorische Lösung im Minimum markierte Velospuren in der Winkelunterführung.
+                Grössere städtische Lifte im Bahnhof, pro Aareseite mindestens zwei, da zu oft defekt.
+
+
+                Rollstuhlgängige altersgerechte Wohnungen mit grossem Balkon (städtische Wohngenossenschaft, schafft  Möglichkeit für ältere  Personen mit Wohnsitz in Olten, aus zu gross gewordenen Liegenschaften auszuziehen und diese an Familien zu verkaufen).
+
+                Einheitliche Anfangszeiten für alle Schulkinder inkl. Kindergarten definitiv einführen.
+            rowindex: 285
+            hash: e1792e15ff3559dc96e9dc7f7cb8ed30cb8f9977d0e99922cb5372e62adf367b
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+            - 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+            - 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+            - 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        analyzed: 2025-03-30T14:23:07.854168+02:00
+    R286:
+        response:
+            id: R286
+            text: Kulturangebot steigern, zugänglicher gestalten. Coole bars und kaffee möglichkeiten, die einlandend und hipp sind, coole live Veranstaltungen draussen  anbieten. Manchmal ist die stadt wie ausgestorben.
+            rowindex: 286
+            hash: ca3ec5ccd91d0a8d53e945f14a9535b08ced0a1c5cc4eb3ba882ebac77821b71
+        themes:
+            - 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+            - 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        analyzed: 2025-03-30T14:23:12.446602+02:00
+    R288:
+        response:
+            id: R288
+            text: Die Wege im Wald. Biker und Wanderer trennen. Ich erlebe immer wieder fast Unfälle im Wald, da die Biker so schnell den Berg runter fahren, dass sie nichtmehr bremsen können, wenn ein Spaziergänger entgegen kommt.
+            rowindex: 288
+            hash: 2539326b5f2741342f61a6d7c5a6b18c6fd7a3ad9b0e1680c829cbd7b7f94bf7
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:23:16.689056+02:00
+    R289:
+        response:
+            id: R289
+            text: |-
+                Sichere Veloverbindungen
+                Eine lebendige Stadt
+                Guter Umgang mit Randständigen
+            rowindex: 289
+            hash: 332d92b0847c126fdfc22320e926bf0b4f5d9ebfd38e1d880bc689ba67ecaaf4
+        themes:
+            - 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+            - 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+            - 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        analyzed: 2025-03-30T14:23:21.573448+02:00
+theme_analyses:
+    'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen':
+        theme: 'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen'
+        response_ids:
+            - R156
+            - R128
+            - R164
+            - R202
+            - R211
+            - R289
+            - R41
+            - R172
+            - R182
+            - R209
+            - R157
+            - R165
+            - R94
+            - R191
+            - R222
+            - R106
+            - R189
+            - R155
+            - R203
+            - R21
+            - R102
+            - R169
+            - R196
+            - R38
+            - R239
+            - R37
+            - R131
+            - R75
+    'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof':
+        theme: 'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof'
+        response_ids:
+            - R202
+            - R4
+            - R157
+            - R285
+            - R109
+            - R40
+            - R72
+            - R251
+            - R120
+            - R241
+            - R272
+            - R132
+            - R10
+            - R170
+            - R221
+            - R54
+    'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur':
+        theme: 'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur'
+        response_ids:
+            - R141
+            - R147
+            - R217
+            - R45
+            - R19
+            - R231
+            - R9
+            - R73
+            - R249
+            - R285
+            - R6
+            - R214
+            - R265
+            - R138
+            - R133
+            - R23
+            - R25
+            - R119
+            - R150
+            - R142
+            - R158
+    'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien':
+        theme: 'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien'
+        response_ids:
+            - R141
+            - R147
+            - R270
+            - R253
+            - R93
+            - R267
+            - R273
+            - R231
+            - R209
+            - R268
+            - R176
+            - R124
+            - R102
+            - R138
+            - R22
+            - R274
+            - R87
+            - R238
+            - R25
+            - R28
+            - R89
+            - R54
+            - R212
+            - R181
+    'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern':
+        theme: 'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern'
+        response_ids:
+            - R173
+            - R143
+            - R178
+            - R15
+            - R253
+            - R168
+            - R50
+            - R167
+            - R225
+            - R231
+            - R130
+            - R91
+            - R6
+            - R92
+            - R203
+            - R166
+            - R245
+            - R150
+            - R218
+            - R55
+            - R123
+            - R232
+    'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten':
+        theme: 'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten'
+        response_ids:
+            - R143
+            - R174
+            - R93
+            - R128
+            - R70
+            - R273
+            - R167
+            - R231
+            - R4
+            - R286
+            - R194
+            - R222
+            - R155
+            - R108
+            - R223
+            - R102
+            - R272
+            - R169
+            - R239
+            - R59
+            - R63
+            - R192
+            - R212
+            - R116
+            - R75
+    'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren':
+        theme: 'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren'
+        response_ids:
+            - R141
+            - R156
+            - R111
+            - R85
+            - R164
+            - R273
+            - R122
+            - R57
+            - R149
+            - R41
+            - R172
+            - R209
+            - R9
+            - R257
+            - R94
+            - R191
+            - R129
+            - R106
+            - R11
+            - R21
+            - R77
+            - R137
+            - R265
+            - R277
+            - R196
+            - R38
+            - R239
+            - R145
+            - R63
+            - R131
+            - R54
+            - R212
+            - R230
+            - R48
+            - R246
+            - R193
+    'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle':
+        theme: 'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle'
+        response_ids:
+            - R147
+            - R202
+            - R237
+            - R149
+            - R96
+            - R209
+            - R9
+            - R249
+            - R285
+            - R206
+            - R250
+            - R14
+            - R25
+            - R101
+            - R119
+            - R39
+            - R89
+            - R52
+            - R252
+            - R183
+    'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen':
+        theme: 'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen'
+        response_ids:
+            - R152
+            - R5
+            - R270
+            - R174
+            - R128
+            - R149
+            - R50
+            - R167
+            - R209
+            - R268
+            - R286
+            - R176
+            - R222
+            - R13
+            - R56
+            - R203
+            - R223
+            - R21
+            - R102
+            - R233
+            - R274
+            - R49
+            - R238
+            - R89
+            - R150
+            - R192
+            - R212
+            - R248
+            - R55
+            - R264
+            - R123
+            - R125
+            - R116
+            - R183
+            - R75
+    'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte':
+        theme: 'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte'
+        response_ids:
+            - R173
+            - R256
+            - R143
+            - R224
+            - R174
+            - R262
+            - R154
+            - R70
+            - R273
+            - R167
+            - R259
+            - R225
+            - R220
+            - R194
+            - R27
+            - R129
+            - R177
+            - R279
+            - R219
+            - R44
+            - R108
+            - R235
+            - R77
+            - R76
+            - R16
+            - R239
+            - R59
+            - R245
+            - R36
+            - R171
+            - R175
+            - R14
+            - R170
+            - R230
+            - R7
+            - R232
+            - R75
+    'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten':
+        theme: 'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten'
+        response_ids:
+            - R148
+            - R156
+            - R224
+            - R15
+            - R262
+            - R164
+            - R247
+            - R32
+            - R122
+            - R281
+            - R211
+            - R58
+            - R41
+            - R182
+            - R130
+            - R94
+            - R191
+            - R194
+            - R6
+            - R27
+            - R251
+            - R33
+            - R11
+            - R208
+            - R22
+            - R132
+            - R277
+            - R196
+            - R38
+            - R53
+            - R200
+            - R269
+            - R36
+            - R28
+            - R63
+            - R170
+            - R131
+            - R26
+            - R30
+            - R139
+            - R7
+            - R121
+            - R140
+            - R186
+    'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität':
+        theme: 'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität'
+        response_ids:
+            - R256
+            - R217
+            - R240
+            - R262
+            - R288
+            - R237
+            - R247
+            - R281
+            - R57
+            - R149
+            - R289
+            - R167
+            - R231
+            - R4
+            - R73
+            - R157
+            - R165
+            - R120
+            - R214
+            - R155
+            - R124
+            - R223
+            - R265
+            - R31
+            - R210
+            - R53
+            - R200
+            - R266
+            - R243
+            - R145
+            - R175
+            - R215
+            - R280
+            - R14
+            - R29
+            - R150
+            - R218
+            - R52
+            - R127
+            - R230
+            - R260
+            - R7
+            - R117
+            - R123
+            - R193
+    'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur':
+        theme: 'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur'
+        response_ids:
+            - R5
+            - R18
+            - R240
+            - R154
+            - R284
+            - R288
+            - R231
+            - R182
+            - R68
+            - R176
+            - R81
+            - R214
+            - R13
+            - R179
+            - R219
+            - R21
+            - R102
+            - R272
+            - R22
+            - R69
+            - R16
+            - R239
+            - R37
+            - R150
+            - R264
+            - R183
+    'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile':
+        theme: 'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile'
+        response_ids:
+            - R141
+            - R148
+            - R152
+            - R156
+            - R173
+            - R111
+            - R240
+            - R253
+            - R85
+            - R93
+            - R263
+            - R288
+            - R164
+            - R202
+            - R247
+            - R122
+            - R281
+            - R57
+            - R149
+            - R211
+            - R289
+            - R259
+            - R20
+            - R231
+            - R4
+            - R41
+            - R182
+            - R209
+            - R220
+            - R9
+            - R73
+            - R165
+            - R257
+            - R268
+            - R285
+            - R130
+            - R197
+            - R68
+            - R72
+            - R91
+            - R94
+            - R191
+            - R129
+            - R251
+            - R33
+            - R120
+            - R189
+            - R214
+            - R279
+            - R179
+            - R208
+            - R219
+            - R95
+            - R124
+            - R203
+            - R137
+            - R228
+            - R102
+            - R138
+            - R272
+            - R233
+            - R22
+            - R132
+            - R169
+            - R277
+            - R23
+            - R113
+            - R196
+            - R69
+            - R16
+            - R38
+            - R53
+            - R10
+            - R49
+            - R238
+            - R243
+            - R269
+            - R36
+            - R51
+            - R145
+            - R215
+            - R28
+            - R131
+            - R26
+            - R212
+            - R55
+            - R139
+            - R246
+            - R115
+            - R123
+            - R140
+            - R158
+            - R181
+            - R186
+            - R193
+            - R82
+    'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik':
+        theme: 'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik'
+        response_ids:
+            - R156
+            - R217
+            - R85
+            - R19
+            - R164
+            - R237
+            - R122
+            - R168
+            - R118
+            - R149
+            - R41
+            - R84
+            - R209
+            - R249
+            - R257
+            - R40
+            - R68
+            - R72
+            - R94
+            - R191
+            - R81
+            - R129
+            - R33
+            - R214
+            - R11
+            - R219
+            - R205
+            - R137
+            - R195
+            - R228
+            - R265
+            - R102
+            - R133
+            - R190
+            - R261
+            - R113
+            - R196
+            - R38
+            - R206
+            - R239
+            - R243
+            - R51
+            - R119
+            - R131
+            - R150
+            - R54
+            - R48
+            - R161
+            - R246
+    'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen':
+        theme: 'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen'
+        response_ids:
+            - R156
+            - R143
+            - R263
+            - R164
+            - R122
+            - R168
+            - R281
+            - R149
+            - R259
+            - R41
+            - R285
+            - R40
+            - R68
+            - R176
+            - R191
+            - R112
+            - R205
+            - R272
+            - R261
+            - R196
+            - R38
+            - R250
+            - R28
+            - R119
+            - R131
+            - R7
+            - R183
+theme_summaries:
+    'Aarezugang und Aareufergestaltung: Bessere Zugänge, attraktive Orte zum Verweilen':
+        summary: |-
+            # SUMMARY:
+            Die Teilnehmenden betonen die Wichtigkeit einer attraktiven Aareufergestaltung und besserer Zugänge zur Aare als zentrales Element der Stadtentwicklung Oltens. Viele wünschen sich mehr Treffpunkte, gastronomische Angebote und Verweilmöglichkeiten entlang der Aare, ähnlich dem "Aaremürli" in Solothurn. Die Verbesserung der Infrastruktur mit sicheren Ein- und Ausstiegen für Aareschwimmer sowie ganzjährigem Zugang zu Badeplätzen wird mehrfach genannt. Zudem werden bessere Veloverbindungen und die Umwandlung zentraler Parkplätze in Aufenthaltsflächen für Menschen vorgeschlagen. Ein weiteres Anliegen ist der Umgang mit Randständigen, die gemäss einigen Beiträgen vom Stadtzentrum weggebracht werden sollten, um die Attraktivität zu steigern.
+
+            #
+        uniqueideas:
+            - SBB-Gleise tieferlegen nach dem Vorbild von Neu-Ulm, um die Stadthälften besser zu verbinden und zentrale Flächen zu gewinnen
+            - 'Schützi: Umwandlung vom Parkplatz zu einer Piazza'
+            - Einführung von Publibikes zur Verbesserung der Mobilität
+            - Strengere Regeln für E-Scooter
+            - Spezifische "Hot Spots" und Bars als Treffpunkte am Aareufer etablieren
+            - Zentrale Parkplätze (Munzinger, Kirchgasse) aufheben, um Plätze für Menschen zu schaffen
+            - Ganzjähriger Zugang zur Badiwiese ermöglichen
+    'Bahnhof und ÖV: Renovation, Unterführungen, Busbahnhof':
+        summary: |-
+            # SUMMARY:
+            Die Beiträge konzentrieren sich hauptsächlich auf den Bahnhof Olten und die Verbesserung der öffentlichen Verkehrsinfrastruktur. Viele Teilnehmende bemängeln den Zustand der Unterführungen (besonders City und Winkel), die als unattraktiv und unsicher wahrgenommen werden. Es gibt mehrere Vorschläge zur Tieferlegung der Gleise oder einem unterirdischen Bahnhof, um die Stadtteile besser zu verbinden. Die Verkehrsführung am Bahnhof wird als problematisch angesehen, und es fehlt ein richtiger Busbahnhof. Besonders betont wird die Notwendigkeit sicherer Veloverbindungen zwischen den Stadtteilen. Auch Sicherheitsaspekte werden angesprochen, mit Forderungen nach mehr Patrouillen am Bahnhof. Die zentrale Lage und gute ÖV-Anbindung Oltens wird als grosser Vorteil gesehen, der weiter ausgebaut werden sollte.
+
+            #
+        uniqueideas:
+            - Gleise der SBB tieferlegen nach dem Vorbild von Neu-Ulm, um zentrale Flächen zu gewinnen und die Stadthälften besser zu verbinden.
+            - Neugestaltung der Fussgänger-Unterführungen nach dem positiven Beispiel des Ländiwegs.
+            - Mehr Sicherheitspatrouillen am Bahnhof, besonders bis die letzten Züge in der Nacht verkehren.
+            - Das Leben um die Aare attraktiver gestalten, um Randständige vom Stadtzentrum wegzubringen.
+            - Markierte Velospuren in der Winkelunterführung als provisorische Lösung.
+            - Mehr und grössere städtische Lifte im Bahnhof (mindestens zwei pro Aareseite), da diese oft defekt sind.
+            - Einrichtung eines Bürgerbusses für das Schöngrundquartier.
+            - Verlängerung der Bahnhofsunterführung Ost bis zur Aare.
+            - Aarebrücke speziell für den Langsamverkehr.
+            - Bessere Nutzung der Unterführungen mit attraktiveren Geschäften.
+            - Entwicklung einer ÖV-Strategie für den gesamten Kanton Solothurn.
+    'Bildung und Schulen: Integration, Chancengleichheit, Schulinfrastruktur':
+        summary: |-
+            # SUMMARY:
+            Die Antworten zum Thema Bildung und Schulen konzentrieren sich auf verschiedene Aspekte der Bildungsqualität und -zugänglichkeit in Olten. Viele Beiträge betonen die Wichtigkeit von Chancengleichheit und Integration im Bildungssystem. Es werden strukturelle Herausforderungen wie die schulische Integration von Kindern mit besonderen Bedürfnissen angesprochen. Mehrere Antworten verbinden Bildungsthemen mit anderen Bereichen wie Verkehr (sichere Velowege für Schulkinder), Umweltbildung und sozialem Zusammenhalt. Die Notwendigkeit von ausreichenden Ressourcen für Schulen wird ebenfalls betont, wobei einige Teilnehmer kritisieren, dass Lösungsansätze oft zu minimalistisch ausfallen. Weitere Themen sind der Umgang mit digitalen Medien in Schulen sowie die Verbesserung der Schulinfrastruktur.
+
+            #
+        uniqueideas:
+            - Tagesstrukturen an allen Schulen in Olten einrichten
+            - Grösseres Gebäude für die Musikschule, z.B. im Kloster
+            - Initiativen gegen Mobbing an Schulen entwickeln
+            - Regelung des Handy-/iPad-Gebrauchs an der Oberstufe
+            - Bessere Ressourcenverteilung für die Förderung von Kindern mit speziellen Bedürfnissen
+            - Kooperationen zwischen Sportvereinen und Schulen für mehr Bewegungsförderung
+            - Naturverbundene Bildungsangebote in Schule und Freizeit ausbauen
+            - Mehr Aufklärung zum Thema Littering in den Schulen
+            - Verbesserte Infrastruktur für die sichere Erreichbarkeit von Schulen mit dem Velo
+            - Breites Bildungsangebot mit Zugang für alle sicherstellen
+    'Familienfreundlichkeit: Kinderbetreuung, Spielplätze, Angebote für Familien':
+        summary: |-
+            # SUMMARY:
+            Die Antworten zu Familienfreundlichkeit in Olten konzentrieren sich auf mehrere Kernbereiche: Kinderbetreuung (Tagesstrukturen an Schulen, bezahlbare KiTa-Plätze), Verkehrsinfrastruktur (sichere Velowege besonders für Kinder, Verbindungen zwischen Aare-Seiten, verkehrsberuhigte Zonen), Freizeit- und Kulturangebote (mehr kulturelle Angebote für Familien, sportliche Aktivitäten) sowie öffentliche Räume (Grünflächen als Begegnungszonen, Spielplätze). Ein weiterer wichtiger Aspekt ist die Stadtentwicklung mit kinderfreundlichen Restaurants/Cafés und attraktiven Geschäften in der Innenstadt, die mehr Menschen anziehen sollen.
+
+            #
+        uniqueideas:
+            - Bezahlbarer Badi-Eintritt für Familien mit niedrigem Einkommen
+            - Outdoor-Fitnessanlagen als Investition in die Gesundheit der Bevölkerung
+            - Niederschwellige Sportangebote in Quartieren und Kooperationen mit Schulen
+            - Mehr Angebote speziell für Kinder unter 1 Jahr
+            - Mehr Diversität und Kreativität bei Gastronomieangeboten (statt "noch mehr Dönerbuden")
+            - Bessere Zugänglichkeit der Aare
+            - Bessere Unterstützung bei alternativen Heizformen und bessere Vergütung aus PV-Anlagen
+            - Unternehmenssteuern nicht weiter erhöhen (als wirtschaftlicher Aspekt für Familienfreundlichkeit)
+            - Sichere Überfahrt zwischen Fachhochschule und Altstadt speziell für Kinder
+    'Finanzen und Steuern: Steuersenkung, effiziente Verwendung von Steuergeldern':
+        summary: |-
+            # SUMMARY:
+            Die Antworten zum Thema Finanzen und Steuern zeigen verschiedene Schwerpunkte. Viele Beiträge fordern eine Steuersenkung, um Olten als Wirtschaftsstandort attraktiver zu machen und die Lebenshaltungskosten zu senken. Mehrfach wird die Verschwendung von Steuergeldern kritisiert, besonders bei städtebaulichen Projekten wie Begegnungszonen. Einige Beiträge wünschen sich eine bessere Unterstützung für die Innenstadt, um mehr Vielfalt im Einzelhandel zu erreichen und weniger Einheitlichkeit (zu viele Barbershops, Kebabläden). Auch die Anziehung finanzstarker Unternehmen als Steuerzahler wird mehrfach als wichtig erachtet. Daneben werden Investitionen in Infrastruktur (Veloverbindungen), bezahlbare KiTa-Plätze und Sportförderung als sinnvolle Verwendung von Steuergeldern genannt.
+
+            #
+        uniqueideas:
+            - Temporäre Umnutzung des Munzingerplatzes statt Aufhebung kostenpflichtiger Parkplätze
+            - Investition in Outdoor-Fitnessanlagen als Beitrag zur Gesundheitsförderung
+            - Beschleunigung aller Verwaltungsprozesse (von Baugesuch bis Zeitaufwand)
+            - Grosszügigere Projektplanung statt minimalistischer Lösungen aufgrund angeblicher Finanzprobleme
+            - Eingrenzen des Wachstums der Verwaltung
+            - Bezahlbare Kultur, die "Faschisten fernhält" und keine Steuergelder unnötig verschwendet
+            - Wellnessprogramm/Wellnessbad als Angebot für Einwohner und Besucher
+            - Hundepark für Hundehalter
+            - Niederschwellige Sportangebote in Quartieren oder Kooperationen mit Schulen
+    'Gastronomie: Mehr vielfältige Restaurants und Cafés, längere Öffnungszeiten':
+        summary: |-
+            # SUMMARY:
+            Die Antworten zeigen einen klaren Wunsch nach mehr gastronomischer Vielfalt und längeren Öffnungszeiten in Olten. Viele Teilnehmende beklagen die Überrepräsentation von Döner- und Kebab-Läden sowie Barbershops und wünschen sich stattdessen kreativere, vielfältigere Gastronomiekonzepte. Die Innenstadt wird als wenig attraktiv und teilweise ausgestorben beschrieben. Es besteht der Wunsch nach mehr kinderfreundlichen Cafés, hippen Bars und Restaurants, die zum Verweilen einladen. Die Nutzung des Aareufers für gastronomische Angebote wird mehrfach erwähnt. Auch wird eine bessere Unterstützung für Gastronomiebetriebe durch niedrigere Steuern und Mieten gefordert, um eine lebendigere Innenstadt zu schaffen. Viele sehen einen Zusammenhang zwischen attraktiver Gastronomie und der allgemeinen Belebung der Stadt.
+
+            #
+        uniqueideas:
+            - Einen Marktplatz in der Fussgängerzone mit frischen Angeboten einrichten, der zum Einkaufen in der Stadt einlädt.
+            - Einen einheitlichen Kanal bzw. Veranstaltungskalender für die diversen Freizeitangebote schaffen.
+            - Aareufer als gastronomischen "Hot Spot" mit Bars und Treffpunkten entwickeln.
+            - Günstigere Steuern und Mieten für Gastronomiebetriebe, um eine vielfältigere Gastroszene zu fördern.
+            - Kombinierte Angebote aus Gastronomie und Kultur, wie Live-Veranstaltungen im Freien.
+            - Kaffee- und Essensmöglichkeiten, die speziell auf Familien mit Kindern ausgerichtet sind.
+            - Neugestaltung des Bahnhofbuffets als attraktiven gastronomischen Treffpunkt.
+            - Modernisierung und bessere Instandhaltung öffentlicher Toiletten in der Nähe gastronomischer Betriebe.
+            - Dating-Treffen bzw. soziale Events in Cafés und Restaurants organisieren, um Menschen zusammenzubringen.
+            - Grünflächen als Begegnungszonen mit gastronomischen Angeboten gestalten.
+    'Grünflächen und Begrünung: Mehr Bäume, weniger Beton, Hitzeinseln reduzieren':
+        summary: |-
+            # SUMMARY:
+            Die Antworten zeigen, dass Grünflächen und Begrünung als wichtige Aspekte der Stadtentwicklung in Olten angesehen werden. Viele Beiträge nennen Stadtentwicklung als übergeordnetes Thema, wobei die Reduktion von Hitzeinseln, mehr Bäume und weniger versiegelte Flächen als konkrete Massnahmen genannt werden. Die Beiträge verbinden das Thema Grünflächen häufig mit Verkehrsberuhigung und der Förderung des Langsamverkehrs. Grünflächen werden auch als Begegnungszonen und Erholungsräume betrachtet, die zur Lebensqualität aller Generationen beitragen sollen. Die Schaffung einer lebenswerten Stadt mit nachhaltigen Konzepten steht im Vordergrund.
+
+            #
+        uniqueideas:
+            - Grünflächen gezielt als Begegnungszonen gestalten
+            - Boden entsiegeln, um mehr natürliche Flächen zu schaffen
+            - Wesentlich mehr Bäume im Strassenraum pflanzen
+            - Gesellschaftliche Initiative zur Abkehr von fossilen Energieträgern (statt individueller Lösungen wie Wärmepumpen)
+            - Begrünung der Kirchgasse
+            - Raum an der Aare schaffen bzw. besser nutzen
+            - Stadt der kurzen Wege entwickeln (Versorgung in Quartieren)
+            - Günstigerer Badi-Eintritt für Familien mit niedrigem Einkommen
+            - Grüne Konzepte mit barrierefreien Verkehrswegen verbinden
+            - Attraktivere Innenstadt durch Begrünung, um mehr Menschen anzuziehen
+    'Integration und Inklusion: Barrierefreiheit, Teilhabe für alle':
+        summary: |-
+            # SUMMARY:
+            Die Beiträge zum Thema Integration und Inklusion zeigen, dass Barrierefreiheit und Teilhabe für alle wichtige Anliegen in Olten sind. Viele Kommentare betonen die Notwendigkeit einer besseren Infrastruktur für Menschen mit Mobilitätseinschränkungen, insbesondere im Bereich des öffentlichen Verkehrs und der Fussgänger- und Veloinfrastruktur. Die Tieferlegung der SBB-Gleise wird als Möglichkeit zur besseren Verbindung der Stadthälften genannt. Mehrfach angesprochen wird auch die Wichtigkeit von Bildungs- und Betreuungsangeboten für alle, insbesondere für Kinder mit speziellen Bedürfnissen. Die Beiträge zeigen zudem, dass Sicherheit, Transparenz und eine nachhaltige Stadtentwicklung als wichtige Faktoren für eine inklusive Stadt angesehen werden.
+
+            #
+        uniqueideas:
+            - Tieferlegung der SBB-Gleise nach dem Vorbild Neu-Ulm zur besseren Verbindung der Stadthälften und Gewinnung von zentralen Flächen
+            - Tagesstrukturen an allen Schulen in Olten
+            - Grössere und zuverlässigere städtische Lifte im Bahnhof (mindestens zwei pro Aareseite)
+            - Sichere und barrierefreie Veloverbindungen zwischen den Stadtteilen ohne verwinkelte Unterführungen
+            - Markierte Velospuren in der Winkelunterführung als provisorische Lösung
+            - Mehr rollstuhlgängige, altersgerechte Wohnungen
+            - Schulische Integration von Kindern mit speziellen Bedürfnissen mit ausreichenden Förderlektionen
+            - Begrünung der Kirchgasse
+            - Altersbeirat zur Vertretung der Interessen älterer Menschen
+            - Programme für Randständige zur Verbesserung ihrer Lebenssituation
+            - Kinderhort in Kleingruppen
+            - Open Data und mehr Transparenz gegenüber der Bevölkerung bei Stadtentwicklungsprojekten
+            - Überprüfung der "smarten" Strassenbeleuchtung im Hinblick auf Sicherheitsaspekte
+    'Kultur und Freizeitangebote: Mehr Veranstaltungen, attraktivere Angebote für alle Altersgruppen':
+        summary: |-
+            # ZUSAMMENFASSUNG:
+
+            Die Antworten zeigen einen klaren Wunsch nach einer Belebung der Stadt Olten durch mehr kulturelle und Freizeitangebote für alle Altersgruppen. Viele Bürger wünschen sich eine attraktivere Innenstadt mit mehr Veranstaltungen, Treffpunkten und Einkaufsmöglichkeiten. Die Aareufer werden als ungenutztes Potenzial gesehen, das belebt werden könnte. Es wird auch der Wunsch nach mehr Grünflächen, besseren Sportanlagen und einer zentralen Informationsquelle für Veranstaltungen geäussert. Mehrere Antworten weisen darauf hin, dass die Stadt manchmal wie "ausgestorben" wirkt und dass viele Einwohner für Einkäufe und Freizeitaktivitäten in andere Städte wie Aarau ausweichen.
+
+            # EINZIGARTIGE IDEEN:
+
+            IDEA: Schaffung eines zentralen Marktplatzes in der Fussgängerzone mit frischen Angeboten, der zum Einkaufen in der Stadt einlädt
+            IDEA: Einheitlicher Veranstaltungskalender als zentraler Informationskanal für alle Freizeitangebote
+            IDEA: Belebung des Aareufers mit Hotspots, Bars und Treffpunkten
+            IDEA: Mehr grüne Erholungsräume und weniger Beton für eine nachhaltigere Stadtgestaltung
+            IDEA: Attraktivere Gestaltung des Langsamverkehrs (Velo, zu Fuss)
+            IDEA: Ansiedlung finanzstarker Unternehmen zur Stärkung des Steuersubstrats
+            IDEA: Einrichtung eines speziellen Hundeauslaufparks
+            IDEA: Wellnessbad/Wellnessprogramm als Attraktion für Einheimische und Besucher
+            IDEA: Ausbau der Kinderbetreuung
+            IDEA: Günstigere Freizeitaktivitäten anbieten
+            IDEA: "Hippe" Bars und Cafés etablieren, die einladender wirken
+            IDEA: Mehr Live-Veranstaltungen im Freien
+            IDEA: Überdachung der Badi im Winter (wie in Zuchwil)
+            IDEA: Erweiterung der Öffnungszeiten und Grösse des Kanti Hallenbades
+        uniqueideas: []
+    'Ladensterben und Geschäftsvielfalt: Zu viele Barbershops/Kebabläden, fehlende Fachgeschäfte':
+        summary: |-
+            # SUMMARY:
+            Die Antworten zeigen eine grosse Besorgnis über die aktuelle Geschäftsstruktur in Olten, insbesondere in der Innenstadt und Altstadt. Viele Bürger beklagen eine Überrepräsentation von Barbershops, Kebabläden, Pizza-Restaurants und ähnlichen Geschäften, während gleichzeitig eine mangelnde Vielfalt an Fachgeschäften und attraktiven Einkaufsmöglichkeiten kritisiert wird. Das "Lädelisterben" wird als erhebliches Problem wahrgenommen, das die Attraktivität der Stadt mindert. Die Befragten sehen einen Zusammenhang zwischen der Geschäftsvielfalt und der allgemeinen Belebung der Innenstadt. Zudem werden strukturelle Probleme wie hohe Mieten, Steuern und unzureichende Parkplatzsituationen als Hindernisse für eine vielfältige Geschäftslandschaft identifiziert.
+
+            #
+        uniqueideas:
+            - Schaffung eines zentralen Marktplatzes in der Fussgängerzone mit frischen Angeboten, die zum Einkaufen in der Stadt einladen.
+            - Einrichtung eines einheitlichen Kommunikationskanals für Freizeitangebote und Veranstaltungen.
+            - Gezielte steuerliche Entlastungen und Mietsubventionen für Kleingeschäfte zur Förderung der Geschäftsvielfalt.
+            - Bessere Unterstützung für Sportvereine und öffentlich zugängliche Infrastruktur für Sportaktivitäten als Teil der Stadtbelebung.
+            - Schaffung von Grünflächen als Begegnungszonen zur Erhöhung der Aufenthaltsqualität.
+            - Günstigere Badi-Eintritte für Familien mit niedrigem Einkommen.
+            - Entwicklung eines Wellnessprogramms/Wellnessbades als Anziehungspunkt, besonders angesichts der Rolle Oltens als SBB-Knotenpunkt.
+            - Einrichtung eines speziellen Hundeparks für Hundehalter.
+            - Integrierte Stadtentwicklung in Verbindung mit der Entwicklung des Wirtschaftsstandortes Olten.
+            - Bekämpfung des "störenden Milieus" bei der Stadtkirche zur Verbesserung des Sicherheitsgefühls.
+    'Parkplätze und Verkehrsführung: Parkmöglichkeiten in der Innenstadt, Stau zu Stosszeiten':
+        summary: |-
+            # SUMMARY:
+            Die Antworten zeigen eine starke Unzufriedenheit mit der aktuellen Parkplatz- und Verkehrssituation in Olten. Viele Befragte kritisieren die unzureichenden Parkmöglichkeiten in der Innenstadt und Altstadt. Es gibt eine deutliche Spannung zwischen verschiedenen Verkehrskonzepten: Einerseits wird der Mangel an Parkplätzen bemängelt, andererseits fordern andere Stimmen die Umwandlung von Parkflächen in öffentliche Plätze für Menschen. Die Verkehrsprobleme werden als langfristig ungelöst beschrieben, und es gibt Kritik an der Stadtentwicklung, insbesondere am "Ladensterben" und dem veränderten Ladenmix. Mehrere Beiträge thematisieren Umweltaspekte wie Entsiegelung und die Abkehr von fossilen Energieträgern sowie den Wunsch nach besseren Veloverbindungen.
+
+            #
+        uniqueideas:
+            - Einführung einer flächendeckenden 30er Zone mit grüner Welle für besseren Verkehrsfluss und Lärmschutz
+            - Umwandlung zentraler Parkplätze (Munzinger, Kirchgasse, Schützenmatt) in öffentliche Plätze für Menschen
+            - Wesentlich mehr Bäume im Strassenraum pflanzen und Bodenentsiegelung vorantreiben
+            - Eine gesellschaftliche Initiative zur Abkehr von fossilen Energieträgern entwickeln
+            - Entwicklung zur "Stadt der kurzen Wege" mit verbesserter Infrastruktur für Fussgänger und Radfahrer
+            - Bessere Veloverbindungen schaffen
+            - Ganzjähriger Zugang zur Badiwiese ermöglichen
+            - Verbesserte Ein- und Ausstiegsmöglichkeiten für die Aare
+            - Einführung eines Publibike-Systems
+            - Weniger Verwaltungspersonen, mehr "Macher" und Beschleunigung aller Prozesse (von Baugesuchen bis Zeitaufwand)
+    'Sicherheit und Soziales: Randständige, Drogen- und Alkoholprobleme, Kriminalität':
+        summary: |-
+            # SUMMARY:
+            Die Antworten zeigen, dass Sicherheit und soziale Themen in Olten wichtige Anliegen der Bevölkerung sind. Viele Personen äussern Bedenken bezüglich der Sicherheit im öffentlichen Raum, insbesondere bei der Stadtkirche und in schlecht beleuchteten Bereichen. Das "Randständigen-Milieu" wird als störend empfunden. Verkehrssicherheit ist ebenfalls ein zentrales Thema, vor allem für Fussgänger und Velofahrer. Es gibt Bedenken wegen Konflikten zwischen verschiedenen Verkehrsteilnehmern (z.B. Wanderer und Mountainbiker im Wald). Soziale Aspekte wie Integration, Bildung und das gesellschaftliche Miteinander werden als wichtig erachtet, um Kriminalität vorzubeugen. Die Attraktivität der Innenstadt mit ihrer Ladenvielfalt und die Schaffung von mehr grünen Erholungsräumen werden ebenfalls als relevant für das soziale Wohlbefinden genannt.
+
+            #
+        uniqueideas:
+            - Trennung von Mountainbike-Strecken und Wanderwegen im Wald zur Unfallvermeidung
+            - Überdenken der "smarten" Strassenbeleuchtung, die oft zu dunkel ist und das Sicherheitsgefühl beeinträchtigt
+            - Einführung einer flächendeckenden 30er-Zone mit grüner Welle für besseren Lärmschutz und Verkehrssicherheit
+            - Ausbau von Outdoor-Fitnessanlagen zur Förderung von Sport und Bewegung im Alltag
+            - Neugestaltung der Fussgänger-Unterführungen (City & im Winkel), die als "Schandflecke" wahrgenommen werden
+            - Mehr Sicherheitspatrouillen am Bahnhof, besonders in den Nachtstunden bis zur Abfahrt der letzten Züge
+            - Wiederbelebung des Bahnhof-Buffets als attraktiver Begegnungsort
+            - Schaffung eines Hundeparks für Hundehalter
+            - Implementierung eines Wellnessprogramms/Wellnessbads in Olten
+            - Massnahmen gegen Ghettobildung bei der Stadtentwicklung
+            - Niederschwellige Sportangebote in den Quartieren und Kooperationen mit Schulen
+    'Sport und Bewegung: Unterstützung von Vereinen, Sportinfrastruktur':
+        summary: Die Antworten zeigen ein starkes Interesse an der Förderung von Sport und Bewegung in Olten. Ein Hauptanliegen ist die Unterstützung von Sportvereinen, darunter spezifisch die Pfadi Olten. Viele Beiträge betonen die Wichtigkeit einer verbesserten Infrastruktur für sportliche Aktivitäten, sei es durch öffentlich zugängliche Sportanlagen, Outdoor-Fitnessgeräte oder spezifische Einrichtungen wie Basketballplätze. Ein weiterer Schwerpunkt liegt auf dem Langsamverkehr, insbesondere auf sicheren Velowegen und der Trennung von Verkehrsteilnehmern (z.B. Wanderer und Mountainbiker). Auch die Nutzung der Aare und die Verbesserung von Bademöglichkeiten werden mehrfach erwähnt. Zudem gibt es Vorschläge für strahlungsfreie Begegnungszonen und eine nachhaltige Stadtentwicklung, die Sport und Bewegung fördert.
+        uniqueideas:
+            - Trennung von Bikern und Wanderern auf Waldwegen zur Unfallvermeidung
+            - Ganzjähriger Zugang zur Badiwiese
+            - Umwandlung des Schützi-Areals von Parkplatz zu Piazza
+            - Verbesserte Ein- und Ausstiege für die Aare
+            - Einführung von Publibikes (öffentliches Fahrradverleihsystem)
+            - Strahlungsfreie Begegnungszonen für Spiele wie Boccia und Tischtennis
+            - Überdachung der Badi im Winter (nach Vorbild Zuchwil)
+            - Erweiterung der Öffnungszeiten und Grösse des Kanti Hallenbades
+            - Durchgehende Velorouten für die Stadtquerung
+            - Bessere Velotransfer-Möglichkeiten zwischen rechter und linker Aarenseite
+            - Schonendere Bewirtschaftung der Wälder als Naherholungsgebiete
+            - Niederschwellige Sportangebote in den Quartieren
+            - Kooperationen mit Schulen zur Sportförderung
+            - Outdoor-Fitnessanlagen im öffentlichen Raum
+    'Stadtentwicklung und Verkehr: Velowege, Fussgängerunterführungen, Stau, Verbindung der Stadtteile':
+        summary: |-
+            # SUMMARY:
+            Die Antworten zum Thema Stadtentwicklung und Verkehr zeigen, dass die Verkehrsinfrastruktur in Olten ein zentrales Anliegen der Bevölkerung ist. Besonders der Langsamverkehr (Velo- und Fusswege) wird häufig erwähnt, wobei die Sicherheit und Attraktivität der Veloverbindungen zwischen den Stadtteilen betont wird. Die Verbindung der durch die Aare getrennten Stadtteile scheint ein wichtiges Thema zu sein. Auch die Stadtentwicklung allgemein wird als prioritär angesehen, wobei die Attraktivität als Wohnort und die Schaffung von Grünflächen hervorgehoben werden. Mehrere Antworten deuten darauf hin, dass Verkehrsprobleme seit langem bestehen und nachhaltigere Lösungen gewünscht werden.
+
+            #
+        uniqueideas:
+            - Tieferlegung der SBB-Gleise (nach Vorbild Neu-Ulm) zur besseren Verbindung der Stadthälften und Gewinnung zentraler Flächen
+            - Einführung einer flächendeckenden 30er-Zone mit grüner Welle für besseren Verkehrsfluss und Lärmschutz
+            - Trennung von Bike- und Wanderwegen im Wald zur Vermeidung von Unfällen
+            - Kinderfreundliche Cafés und Restaurants in zentraler Lage
+            - Bessere Verbindung zwischen linker und rechter Aare-Seite, speziell am Postplatz und der Winkelunterführung
+            - Verbesserung der Konkurrenzfähigkeit als Wirtschaftsstandort in Verbindung mit der Stadtentwicklung
+            - Kombination von Bildungs- und Betreuungsangeboten mit Langsamverkehrsförderung und Grünflächen
+    'Umwelt und Klima: Nachhaltigkeit, Energieversorgung, Photovoltaik':
+        summary: |-
+            # SUMMARY:
+            Die Antworten zeigen, dass Umwelt und Klima als wichtige Themen für die Bevölkerung gelten. Dabei werden verschiedene Aspekte angesprochen: Stadtentwicklung in Verbindung mit Umweltschutz, die Notwendigkeit von mehr Grünflächen und weniger Versiegelung, Energieversorgung (insbesondere der Umstieg von fossilen Brennstoffen), Verkehrskonzepte mit Fokus auf Langsamverkehr sowie konkrete Probleme wie Foodwaste. Mehrere Personen verbinden Umweltthemen mit anderen Bereichen wie sozialer Gerechtigkeit, Bildung und Lebenshaltungskosten. Auch die Sicherheitsbedenken bezüglich "smarter" Strassenbeleuchtung werden thematisiert.
+
+            #
+        uniqueideas:
+            - Wesentlich mehr Bäume im Strassenraum pflanzen
+            - Boden entsiegeln für bessere Wasseraufnahme und weniger Hitzeinseln
+            - Gesellschaftliche Initiative zum Umstieg von fossilen Energieträgern (mit Kritik an individuellen Wärmepumpen-Lösungen)
+            - Stadt der kurzen Wege entwickeln mit besserer Versorgung in Quartieren
+            - Foodwaste als klimarelevantes Thema angehen
+            - Balance zwischen Umweltmassnahmen (wie smarte Beleuchtung) und Sicherheitsbedürfnissen finden
+            - Verbindung von Umweltschutz mit sozialer Gerechtigkeit und Bildung
+            - Attraktiveren Langsamverkehr fördern ohne ältere Menschen zu benachteiligen
+            - Mehr grüne Erholungsräume schaffen und Betonanteil reduzieren
+            - Umweltthemen mit Lebenshaltungskosten (Mieten, Strom) in Verbindung setzen
+    'Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen':
+        summary: |-
+            # Wohnraum: Bezahlbare Wohnungen, altersgerechtes Wohnen
+
+            ## SUMMARY:
+            Die Beiträge zum Thema Wohnraum konzentrieren sich hauptsächlich auf die Stadtentwicklung in Olten mit dem Ziel, die Stadt als attraktiven Wohnort zu erhalten und weiterzuentwickeln. Dabei werden verschiedene Aspekte angesprochen: Die Lebenshaltungskosten (insbesondere Mieten und Steuern), die Belebung der Innenstadt, mehr Grünflächen und weniger Bodenversiegelung, bessere Infrastruktur für den Langsamverkehr sowie spezifische Bedürfnisse für altersgerechtes Wohnen. Die Teilnehmenden wünschen sich eine nachhaltige Stadtentwicklung, die ökologische, ökonomische und soziale Aspekte berücksichtigt und die Stadt für alle Generationen lebenswert macht.
+
+            ##
+        uniqueideas:
+            - Tiefere Steuern und Mieten zur Förderung einer lebendigen, vielseitigen Innenstadt mit mehr Geschäften und Gastronomie, die zum Verweilen einladen
+            - Wesentlich mehr Bäume im Strassenraum und Entsiegelung von Bodenflächen
+            - Gesellschaftliche Initiative für den Umstieg von fossilen Energieträgern auf nachhaltige Alternativen
+            - Entwicklung einer "Stadt der kurzen Wege" zur Reduzierung der Autoabhängigkeit
+            - Sichere Veloverbindungen zwischen beiden Stadtseiten ohne verwinkelte Unterführungen
+            - Grössere und zuverlässigere städtische Lifte im Bahnhof (mindestens zwei pro Aareseite)
+            - Rollstuhlgängige und altersgerechte Wohnungen
+            - Fernheizungen als nachhaltige Energielösung
+            - Spezifische Altersprojekte zum Wohnen, vergleichbar mit der Altersstiftung
+            - Bürgerbus für bessere öV-Anbindung im Schöngrundquartier
+            - Integration von Sportangeboten und Quartierleben in die Wohnraumplanung
+summary: |-
+    # Gesamtübersicht der Umfrageergebnisse zu Olten
+
+    Die Umfrageergebnisse zeigen, dass die Bürgerinnen und Bürger von Olten eine klare Vision für ihre Stadt haben. Zentrale Anliegen sind:
+
+    **Stadtentwicklung und Verkehr**: Viele wünschen sich die Tieferlegung der SBB-Gleise zur besseren Verbindung der Stadthälften, sichere Veloverbindungen und eine flächendeckende Tempo-30-Zone. Die Unterführungen am Bahnhof werden als unattraktiv und unsicher wahrgenommen.
+
+    **Öffentlicher Raum**: Es besteht ein starker Wunsch nach mehr Grünflächen, Bäumen und entsiegelten Böden, um Hitzeinseln zu reduzieren. Die Umwandlung zentraler Parkplätze in Begegnungszonen wird mehrfach vorgeschlagen.
+
+    **Aarezugang**: Die Aare wird als ungenutztes Potenzial gesehen, mit Wünschen nach besseren Zugängen, Verweilmöglichkeiten und gastronomischen Angeboten.
+
+    **Innenstadt und Geschäftsvielfalt**: Die Überrepräsentation von Barbershops und Kebabläden wird kritisiert, während mehr Fachgeschäfte und vielfältigere Gastronomie gewünscht werden.
+
+    **Soziales und Bildung**: Tagesstrukturen an allen Schulen, bezahlbare Kinderbetreuung und bessere Integration werden als wichtig erachtet.
+
+    Diese Ergebnisse zeigen den Wunsch nach einer lebendigeren, grüneren und besser verbundenen Stadt mit vielfältigen Angeboten für alle Bevölkerungsgruppen.
+global_summary: |-
+    # Gesamtübersicht der Umfrageergebnisse zu Olten
+
+    Die Umfrageergebnisse zeigen, dass die Bürgerinnen und Bürger von Olten eine klare Vision für ihre Stadt haben. Zentrale Anliegen sind:
+
+    **Stadtentwicklung und Verkehr**: Viele wünschen sich die Tieferlegung der SBB-Gleise zur besseren Verbindung der Stadthälften, sichere Veloverbindungen und eine flächendeckende Tempo-30-Zone. Die Unterführungen am Bahnhof werden als unattraktiv und unsicher wahrgenommen.
+
+    **Öffentlicher Raum**: Es besteht ein starker Wunsch nach mehr Grünflächen, Bäumen und entsiegelten Böden, um Hitzeinseln zu reduzieren. Die Umwandlung zentraler Parkplätze in Begegnungszonen wird mehrfach vorgeschlagen.
+
+    **Aarezugang**: Die Aare wird als ungenutztes Potenzial gesehen, mit Wünschen nach besseren Zugängen, Verweilmöglichkeiten und gastronomischen Angeboten.
+
+    **Innenstadt und Geschäftsvielfalt**: Die Überrepräsentation von Barbershops und Kebabläden wird kritisiert, während mehr Fachgeschäfte und vielfältigere Gastronomie gewünscht werden.
+
+    **Soziales und Bildung**: Tagesstrukturen an allen Schulen, bezahlbare Kinderbetreuung und bessere Integration werden als wichtig erachtet.
+
+    Diese Ergebnisse zeigen den Wunsch nach einer lebendigeren, grüneren und besser verbundenen Stadt mit vielfältigen Angeboten für alle Bevölkerungsgruppen.
+analysis_timestamp: 2025-03-30T15:49:04.291799+02:00

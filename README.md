@@ -9,6 +9,8 @@ A Go application for analyzing free-form responses from questionnaires using Cla
 - **Audit Log**: Generate an audit log to verify how original texts were mapped to identified themes
 - **Incremental Processing**: Only analyze new or changed responses in subsequent runs
 - **Caching**: Cache Claude API responses to avoid repeated API calls
+- **Cost Tracking**: Track and display the cost of Claude API calls
+- **Rate Limiting**: Automatically handle API rate limits with exponential backoff
 - **YAML Configuration**: Control the application using a YAML configuration file
 
 ## Requirements
@@ -44,20 +46,35 @@ A Go application for analyzing free-form responses from questionnaires using Cla
    ./response-analyzer -config config.yaml
    ```
 
-4. On the first run, the application will identify themes in the responses and output them to the console and a `themes.yaml` file. Add these themes to your configuration file for subsequent runs.
+4. If no themes are defined in your config file, the application will automatically run in themes-identification mode:
+   - It will identify themes in the responses
+   - Output the themes to the console and a `themes.yaml` file
+   - Stop after theme identification
 
-5. On subsequent runs, the application will match responses to the themes and generate a summary.
+5. Add the identified themes to your configuration file under the `themes:` section.
+
+6. Run the application again to perform the full analysis:
+   ```
+   ./response-analyzer -config config.yaml
+   ```
 
 ## Workflow
 
-1. **First Run**: The application analyzes all responses to identify themes
+1. **Themes Identification**: Automatically activated when no themes are in the config file
+   - The application identifies themes in the responses
    - Outputs identified themes to the console and a `themes.yaml` file
-   - You can add/revise these themes in the config file
+   - Stops after theme identification, allowing you to review and add themes to the config file
+   - No full analysis is performed at this stage
+   - You can also force this mode with the `-identify-themes-only` flag, even if themes are present in the config
 
-2. **Subsequent Runs**: The application matches responses to themes
+2. **Full Analysis**: Runs when themes are present in the config file
+   - The application uses themes from your config file
+   - Matches responses to themes
    - Generates a state file with responses and matching themes
    - Produces an audit log showing how responses map to themes
    - Creates a summary of main points and unique ideas
+
+This two-step workflow ensures you can review and customize the themes before the full analysis is performed.
 
 ## Output Files
 
