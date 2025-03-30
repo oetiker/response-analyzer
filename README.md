@@ -95,7 +95,6 @@ Key options include:
 - `context_prompt`: Prompt for theme identification
 - `theme_summary_prompt`: Prompt for per-theme summaries
 - `global_summary_prompt`: Prompt for global summary
-- `summary_prompt`: Prompt for summary generation (for backward compatibility)
 - `output_language`: Language for the output (en, de, de-ch, fr, it)
 - `themes`: List of themes to use (populated after first run)
 - `cache_enabled`: Enable caching to avoid repeated API calls
@@ -115,7 +114,7 @@ claude_model: "claude-3-opus-20240229"
 context_prompt: "Analyze these survey responses about our product."
 theme_summary_prompt: "For this theme, provide a detailed summary and extract unique ideas."
 global_summary_prompt: "Based on the theme summaries, provide a comprehensive overview."
-summary_length: 1000
+global_summary_length: 1000
 
 # Output language configuration
 output_language: "de-ch"  # German with Swiss spelling (ß -> ss)

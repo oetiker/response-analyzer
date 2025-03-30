@@ -48,7 +48,7 @@ type Config struct {
     ClaudeModel   string `yaml:"claude_model,omitempty"`
     ContextPrompt string `yaml:"context_prompt"`
     SummaryPrompt string `yaml:"summary_prompt"`
-    SummaryLength int    `yaml:"summary_length"`
+    SummaryLength int    `yaml:"global_summary_length"` // Renamed from summary_length for clarity
 
     // Theme summary configuration
     ThemeSummaryPrompt  string `yaml:"theme_summary_prompt,omitempty"`
