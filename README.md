@@ -1,5 +1,7 @@
 # Response Analyzer
 
+> **Development Note**: This application was developed using [Cline](https://github.com/celine-ai/cline) with Claude 3.7 Sonnet. Cline is an AI-powered coding assistant that supports various large language models (LLMs), allowing developers to choose their preferred AI engine. For this project, Claude 3.7 Sonnet was selected to assist in writing, modifying, and improving the Go codebase. The development process involved describing features and requirements through the Cline interface, which then generated and refined code based on these specifications, significantly accelerating development while maintaining code quality.
+
 A Go application for analyzing free-form responses from questionnaires using Claude AI.
 
 ## Features
